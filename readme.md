@@ -2,10 +2,13 @@
 
 Well, all the cool kids seem to be training their own text bots so here's one which finetunes gpt-2 to generate titles of ml papers. Main code in [scrape_finetune_pred.ipynb](scrape_finetune_pred.ipynb).
 
+Trained by finetuning the 117M model for 1000 steps on article titles from stat.ML betweem 2017-08-01 and 2019-07-01.
+
 # samples
 - see more in [samples](samples) folder
-======== SAMPLE 1 ========
 
+
+```
 a machine learning framework for computer vision
 a semi-supervised csi-on-icb test for differential privacy
 neural control variates for efficient inference and meaningful decision making
@@ -43,11 +46,13 @@ multimodal social learning with active interest discovery
 stochastic variance-reduced cubic regularization for approximate inference
 predicting county level corn yields based on time series data
 a deep residual network approach for predicting county level eegs using sparse and incomplete data
-
+```
 
 # reference
 
 - uses [gpt-2 simple](https://github.com/minimaxir/gpt-2-simple)
 - uses [arxiv-scraper](https://github.com/Mahdisadjadi/arxivscraper)
+
+- unfortunately, flask seems to throw an error when loading tensorflow > 1.5
 - app based on [this tutorial](https://towardsdatascience.com/develop-a-nlp-model-in-python-deploy-it-with-flask-step-by-step-744f3bdd7776)
-- deployed on heroku following [this tutorial](https://medium.com/the-andela-way/deploying-a-python-flask-app-to-heroku-41250bda27d0)
+- could deploy to heroku following [this tutorial](https://medium.com/the-andela-way/deploying-a-python-flask-app-to-heroku-41250bda27d0)

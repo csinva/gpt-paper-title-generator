@@ -18,3 +18,4 @@ checkpoint
 models
 *.csv
 old*
+.idea
