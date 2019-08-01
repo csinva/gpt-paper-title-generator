@@ -1,8 +1,5 @@
 tensorflow
 flask
 gpt_2_simple
-starlette
-uvicorn
 gunicorn
 ujson
-requests
