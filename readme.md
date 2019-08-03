@@ -3,12 +3,14 @@
 Well, all the cool kids seem to be training their own text bots so here's one which finetunes gpt-2 to generate titles of scientific papers. Main code in [scrape_finetune_pred.ipynb](scrape_finetune_pred.ipynb).
 
 ## settings for data gathering
-- **ml**: Trained by finetuning the 117M model for 1000 steps on article titles from stat.ML betweem 2017-08-01 and 2019-07-01 with 'learning' in the abstract.
-- **neuro/genomics**: Trained by finetuning the 117M model for 100 steps on 2,870 article titles from arXiv q-bio GN (genomics) and q-bio NC (neurons and cognition) betweem 2016-08-01 and 2019-07-01.
+- all models are trained by finetuning the 117M model.
+- **ml**: Trained for 1000 steps on article titles from stat.ML betweem 2017-08-01 and 2019-07-01 with 'learning' in the abstract.
+- **neuro/genomics**: Trained for 100 steps on 2,870 article titles from arXiv q-bio GN (genomics) and q-bio NC (neurons and cognition) between 2016-08-01 and 2019-07-01.
+- **quantum**: Trained for 150 steps on a couple thousand article titles from arXiv quant-ph between 2019-05-01 to 2019-07-03.
 
 
 # samples
-see more in [samples](samples) folder
+Here are some samples for ml titles (more in the folders named samples)
 
 - A Machine Learning Framework For Computer Vision
 - A Semi-Supervised Csi-On-Icb Test For Differential Privacy
