@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<body onload="newQuote()">
+<script>
+
+    var quotes = ['$\\Mathcal{Graph}^3$-L0 Optimization For Large-Scale Structure Discovery From Multivariate Time Series', 'On Consistency Of Sgd Over-Parameterization', 'Deep Clustering Without Subspace Mining', 'A Review Of Transfer Learning To Optimize Transfer Learning In Clinical Neuroimaging', 'Sparse Approximate Nearest Neighbor Algorithms In Fmri', 'Efficient Transfer Learning Under Unknown Conditional Inputs', 'Probabilistic Clustering With Missing Values', 'An Online Method For Multi-View Learning With Overlapped Clustering', 'A Probabilistic Framework For Modeling With Hidden Markov Models Via The Partial Substitute Hypothesis', 'Adversarial Variational Autoencoders For Bayesian Inference', 'A Tutorial On Nonlinear Parameter Learning For Non-Stationary Sensing', 'Sparse Exponential Families', 'A Machine-Learning Approach To Optimal Control Of Hypoxemia Through Short Durations', 'Convexification Of Nonlinear Transformations To Approximate Tensor Completion Through Convex Optimization', 'Learning Linear Models Under A Convex Function Plane Without Smoothness Bounds', 'Bayesian Nonparametric Variational Autoencoders', 'Bayesian Maximum Margin Activation Functions And Its Application To All Variational Bayes', 'Learning Sparse Probabilistic Flows', 'A New Class Of Statistical Fingerprinting Methods With Applications To Non-Stationary Sensor Fusion', 'A Non-Parametric Dual Averaging Stochastic Gradient Descent Algorithm For Bayesian Non-Negative Matrix Factorization', 'Non-Asymptotic Convergence Of Natural Gradient Descent In Statistical Parametric Models', 'Towards A Theoretical Understanding Of Inverse Dynamics', 'On The Geometry Of Projection-Convexity Matrices', 'Deep Generative Models', 'Deep Spectral Network', 'On Implicit Variational Inference', 'Learning A Polynomial-Form Markov Chain Rule For Gaussian Processes', 'Generative Adversarial Networks', 'Concretexgradient: Convex Optimization With Concrete Network Model For Inverse Cuing Processes', 'How Well Does Your Neural Network Know Your Weight?', 'Learning Nonlinear Embeddings Via Generalized Quadratic Activation Functions', 'Deep And Flexible Policy Networks For Autonomous Vehicles', 'Online Learning Algorithms For Real-Valued Input Dynamics', 'Differentiable Learning Algorithms With Arbitrary Precision Matrices', 'Clustering With Simultaneous Sparse Gaussian Processes', 'A Generative Adversarial Net For Music Generation And Release', 'Towards Adversarial Training With Aicnet-Enhanced Initialization Rates', 'Distributed Sequential Learning And Generation', 'Semi-Supervised And Hierarchical Clustering With A Traditional Gaussian Process Prior<', 'Pacing', 'Variational Multi-Agent Network Architecture For Data Fusion', 'Fast', 'Predicting Patient Discharge Status Using Gene Regulatory Networks', 'Tensor-Net: Multi-Faceted Graph Convolutional Neural Networks For Diagnosis Of Psychiatric Disorder', 'Bayesian Regularization In Deep Reinforcement Learning', 'Optimal Transport For A Mixture Of Differentiable Data With A Variational Autoregressive Model And A Regularization Procedure', 'Tensor-Net: A Combined Training Dataset For Data Visualization And Inference', 'Online Learning For Time Series Forecasting', 'Learning With Graph Kernels As Fast As Non-Convex Combinatorial Optimization', 'Deep Networks With Low-Rank Approximation Enhance Prediction Of Fluid Intelligence', 'Proprietary Learning Via Low Rank Latent Variables In Variational Autoencoders', 'Learning Recurrent Neural Networks Via Monte Carlo Decomposition', 'Understanding And Comparing Deep Neural Networks For Text Classification', 'Stacking As A Constraint For Neural Network Classifiers', 'Variational Bayes: Bayesian Optimization For Non-Convex And Stochastic Optimization Solutions', 'Learning Discrete Representations From Text In Low-Power', 'An Analysis Of Transfer Learning And Statistical Robustness For Nonconvex Learning', "Learning To Meet One'S Individual Needs In A Community For Unsupervised Learning", 'Learning Multi-Layer Representation Of Neural Networks In Nonlinear Time', 'Anomaly Detection Using Convolutional Neural Networks', 'Machine Learning Data Visualization: A Survey', 'Deep Neural Networks For Text Classification: The K-Space Dimension', 'Learning Multivariate Patterns With Bayesian Neural Network Classifiers', 'Toward Improved Statistical Guarantees For Neural Networks Based On Langevin Dynamics', 'Variational Bayes: Learning Variational Embeddings In The Langevin Structure And The Model-Complete Kernel Framework', 'A Note On Deep Learning For Vehicular Travel: A General Discussion', 'Variational Bayes For Learning Diverse And Scalable Tensor Kernels', 'A Distributed Model Of Human Visual Acuity At A Distance', 'Variational Algorithms For Robust Reinforcement Learning Under A Black-Box', 'Learning A Simple Neural Coding', 'Revisiting The History Of Deep Learning: How Many Examples Have Been Learned?', 'Efficient Sparse Learning On Low-Dimensional Matrices', 'Mapping Time Series In Time Series Forecasting: Improved Prediction Techniques', 'Optimal Control Of The Power Grid In Extreme Weather Prediction Using Deep Learning: An Application In The Wireless Era', 'Learning A Robust Framework For Wireless Control', 'An Exact Representation Of The Time Series Of An Oil Company', 'Stochastic Gradient For Optimal Machine Learning: A Comparison Of Gaussian Process Methodsendof', 'A Machine Learning Framework For Computer Vision', 'A Semi-Supervised Csi-On-Icb Test For Differential Privacy', 'Neural Control Variates For Efficient Inference And Meaningful Decision Making', 'Unlearn What You Have Learned: Recurrent Neural Networks For Pre-Processing Speech Using Sparsified Emotional Speech', 'Learning Representations For Long Short-Term Memory Linked Index Circuits', 'Stochastic Gradient Mcmc For Compressing Neural Network Training For Training Fine-Grained Relationships', 'Bayesian Inference And Wavelet Decomposition Of Iterative Random Code', 'Robust And Parallel K-Svm Through Sparsely Correlated Matrix Decomposition', 'Towards A Practical $K$-Dimensional Deep Neural Network Model Parameterization Theory Emphasizing Sequence Interaction', 'Deep Signal Recovery With Dual Momentum: A Complexity And Stability Analysis Based Analysis', 'Fault Diagnosis Using Deep Signal Recovery', 'Sparse Least Squares Regression: Robust Regularization And Recommendations For Improved Statistical Validation', 'Stacking With A Neural Network For Sequential Intent Classification', 'Deep Residual Auto-Encoders For Multi-Label Image Classification', 'Sparse Least Squares Regression For Robust And Adaptive Classification', 'Anatomical Coronary Stearage Reconstruction Using Deep 3D Convolutional Neural Networks', 'Deep Neural Processes', 'Gated-Cgroup Communications Solution For Ciliary Dysfunction Detection Using Hierarchical Directed Acyclic Graph Convolutional Network', 'Understanding Batch Normalization', 'Improving Gan Performance With Stochastic Gradients And More Via Optimized Alternative Estimation', 'Graphoisheter Encephalization Encephalization', 'Improving Gans Using Covariate Shift And Multivariate Spatial Embeddings', 'Dynamic Event Graph Convolutional Networks For Adverse Event Forecasting', 'Fast Asynchronous Parallel Training Of Deep Networks', 'On The Non-Parametric Power Of Logistic Regression For Smooth Events', 'Unifying Pac And Learning Mdps Using Influence Functions', 'Machine Learning To Plan And Downlink Using Intrinsic Motivation', 'Classifier Readiness Testing For Imbalanced Data', 'Fast And Scalable Bayesian Deep Learning With Limited Observations', 'A Comparison Of Deep Neural Networks And Adaptive Graph Neural Networks For Anomaly Detection', 'Distributed Deep Learning With Gossip Networks Using Bidirectional Lstm Sensors', 'Revisiting Reuse Of Super Categories', 'Anatomical Visual Exploration', 'Multimodal Social Learning With Active Interest Discovery', 'Stochastic Variance-Reduced Cubic Regularization For Approximate Inference', 'Predicting County Level Corn Yields Based On Time Series Data', 'A Deep Residual Network Approach For Predicting County Level Eegs Using Sparse And Incomplete Data', '', '', 'Modfeature', 'Deep Neural Networks-Related Activity Recognition With Noisy Label Data', 'Unsupervised Cross-Modal Imitation Learning With Reinforcement Learning', 'Online Learning In Multi-Label Settings Using Deep Learning', 'Bayesian Dual Averaging Networks For Bayesian Learning', 'Sales Forecast And Valuation Planning For Crowdsourced Taxi-Hailing Platform', 'General Multi-Agent Reinforcement Learning For Autonomous Driving From Scratch', 'Online Learning With Graph Convolution For Heterogeneous Graph Prediction', 'A Distributed Machine Learning Approach For The Classification Of Rare Genetic Diseases', 'Theoretical Stability And Robustness Of Stochastic Bandits To Adversarial Attacks', 'The Nonasymptotic Regime For Learning The Stochastic Gradient Hamiltonian Monte Carlo', 'Autoregressive Matrix Completion', 'Theoretical Guarantees For The Stability And Robustness Of Deep Neural Networks', 'Optimal Rates And Distributions For Sampling And Optimization Of Deep Neural Networks', 'A Review Of Gradient Descent And Regularization Methods For Deep Neural Networks', 'Gradient Descent In Linear Time', 'Predicting Of The Clinical Outcome With A Graph Convolutional Neural Network On A Cell Level', 'Distributional Feature Selection Based On A Convex Minimization', 'Learning To Crawl', 'A Nonconvex Approach To Non-Monotone Non-\\"Apart From The Unknown\\"', 'A Quantum Annealing Algorithm For Dimension-Sensitive Non-Convex Optimization', 'A Probabilistic View Of Robust Multimodal Neural Network Architecture Search', 'Learning To Use Word Embeddings In Source Code In Interactive Contexts', 'A Latent-Variable Model For Nonstationary Time Series Forecasting With Application To Epilepsy', 'On Compressive Metamodulation In The Sparse Recovery Procedure', 'Multi-Input Sparse Multi-Label Classification With Label-Aware Contextual Policies', 'Improved Deep Learning To Predict Treatment Effects In Chronic Kidney Injury', 'Differential Transparency Between Kernel And Non-Kernel Methods For Batch Multivariate Data', 'Neural-Network Architecture Search In Real World Applications', 'A Simple And Effective Non-Mathematical Basis For Explaining Machine Learning Models', 'Learning Discrete And Continuous Parameters From Streaming Data', 'Stochastic Gradient Descent With Variance Reduction For Non-Differentiable Models', 'Diversity-Enhanced Reinforcement Learning For Deep Neural Networks', 'A Meta-Learning Approach To Human Behavioral Control For Road Safety', 'Theoretical Properties Of The Random Walk Model', 'Adversarial Training With Optimal Control', 'Learning To Scale By Generating Random Fields', 'A General Framework: Theory And Applications', 'Hierarchical Nonparametric Bay', 'Oftexton The Effect Of Model-Based Training Of Deep Neural Network On Text', 'A Machine Learning-Based Algorithm For Smoothed Linear Discrete Matrices With Applications To Phase Retrieval And Matrix Completion', 'A Comprehensive Survey On Reinforcement Learning For Deep Systems', 'Robust Bayesian Inverse Covariance Estimation', 'The Effect Of Model Parameters On The Expected Distributions Of Continuous And Dissimilarities In Gaussian Regression With Missing Covariates', 'Learning Optimal Transfer', 'A Stochastic Online Sparse Mixture Model With Low-Rank Matching', 'The Dynamics Of Nonlinear Embedding Estimation', 'Nonnegative Matrix Factorization And Deep Learning: A Survey', 'Structure Learning Of Linear Dynamical Systems', 'Variational Bayesian Multi-Task Deep Learning: An Efficient', 'Deepest Approximate Nonnegative Matrix Factorization', 'Re-Purposing And Understanding The Natural Language For Model Selection', "Machine Learning For Prediction Of Alzheimer'S Disease Dementia", 'Learning Deep Linear Neural Networks Without Regularization Via Inductive Modeling: Application In The Case Of Epilepsy', 'The Importance Of Bregman Constants In The Stochastic Variance Of Approximate Nonnegative Matrix Factorization', 'Deep Learning Based Off-Policy Segmentation On The Subcontinent Of Guernsey', 'Stochastic Optimization With Local Information Sampling', 'Machine Learning For Time Series Analysis: A Formalization Approach', 'Discovering Missing Linkages In Dynamical Networks', 'Unseeded Stochastic Variance-Reduced Cubic Regularization By Linear Convergence', 'Pilae-Rnn: Provable Adaptive Neural Network', 'Variational Inference With $\\Beta$-Derivative-Q Expansions Via Approximating Posterior For Non-Convex Low Precision Matrices', 'Predicting Return Trajectories For Bonds', 'Learning To Play Pong With Sparsely-Regularized Mixed-Skill Games', 'Dictionary Learning With Deep Networks', 'A Multiplayer Fourier Network For Automatic Speech Recognition', 'Learning In Two-Player Convolution', 'On The Convergence Of A Structured Derivative From A Gaussian-Vectors Structure', 'Stochastic Variance-Reduced Reconstruction Of Neural Networks', 'Efficient Computation Of The Mean Over Sparse Vector Graph', 'A Generative Model For Sequence-To-Sequence Learning', 'Multi-Fidelity Multi-Armed Workers Data Analysis', 'Demystifying Kronecker-Structured Bayesian Modeling Using Bayesian Geodesics', 'Online Convergence Of Machine Vision Algorithms For Deep Neural Networks', 'Convexification Of Stochastic Mirror Descent Algorithms', 'On The Complexity Of Learning Sparse Linear Classifiers For High-Dimensional Data: A Review', 'A Machine Learning Framework', '<Text>', 'Towards Faster And Faster Kernel Classification', 'Cascading Neural Networks', 'Learning To Model Neural Networks And Beyond: The Convergence Of Cnn-Dvd From The Nonlinearity Of Neural Networks', 'Fri: An Object Identification Policy Perspective', 'Learning Deep Neural Networks: A Comparative Study Of Nonconvex Adversarial Examples', 'Deterministic Linear Regression In K-Means', 'Learning To Model Deep Neural Networks Using Probabilistic Machine Learning', 'Stochastic Gradient For High-Dimensional Model Embedding', 'Deep Reinforcement Learning For Deep Neural Networks', 'Predictive Classification Of Complex Medical Applications Via Deep Representations', 'Proximal Convergence Of Gated Adaptive Linearization On Sparse Matrix Variables', 'A Mixture Of Deep Learning Methods For Structured Learning: The Effect Of Bayesian Optimization And A Comparison Between Deep Neural Networks And Convolutional Neural Networks', 'Deep Learning On The Power Of Time: A Review Of Deep Convolutional Neural Network Based Applications', 'Learning To Generate Neural Representations: A Bayesian Learning Framework With Application To Deep Learning And Convolutional Neural Network Under Adversarial Examples', 'Learning To Rank Deep Neural Networks: A Practical Framework', 'Fast And General Neural Graph-Based Convolutional Neural Networks: The Nonparametric One', 'Cannibalising Neural Networks In The Wild By Unsupervised Training', 'A New Neural Network For Multi-View Multi-Agent Classification', 'Multilayer Robust Gaussian Processes', 'A Statistical Framework For Predicting Non-Smooth-Time Time Series Output', 'Improved Prediction Over Multi-Agent Model Selection', 'A Comparative Survey Of Deep Convolutional Neural Networks For Machine Learning', 'Generative Adversarial Network', 'A Generative Adversarial Network', 'Robust Robustness Of Robustness-Based Active Learning For High Frequency Analysis Over Distributed Networks', 'Snooping: Deep Stochastic Adaptive Linear Regression', 'Deep Submodular Bayesian Multi-Armed Bandits', 'Machine Learning Under Constraints On Large Data Sets', 'Learning To Predict Based On Kernel Uncertainty', 'Frequentized Inverse Approximation', 'A Probabilistic Exploration-Based Neural Network With Learning And Prediction Methods', 'Toward Machine Learning Of Chemical And Biological Compounds With Application To Aa And To The Stratigraphy Of Chemotypes', 'A Deep Learning Network For Aisling Screening In Semi-Supervised Classification', 'Deep Neural Networks (Daignn): The Importance Of Robustness For The Evaluation Of Deep Neural Networks', 'The Value Of A Priori Robustness', 'A Probabilistic Analysis Of Model-Based Optimal Transport For Deep Neural Networks', 'Deep Attention Networks', '', '>On The Learning Properties Of Deep Neural Networks With Limited Activation Space For Noise-Relief', 'Efficient Estimation And Improper Selection Of Targets For Classification', 'Adversarial Risk-Reducing Text Generation By Learning To Optimize', 'Fast Convergence Of Partial Gradient Methods For Sparse Representation Learning', 'Learning To Customize And Adapt For Machine Learning On Demand Forecasts', 'Training And Interpreting Robust Classifiers By Training And Designing Experiments', 'Predicting The Composition Of Crime Groups', 'A Benchmark Task For Out-Of-Distribution Detection At Runtime For Neural Network Training', 'Adaptive Matrix Completion: Optimal Information Rates For The Humanities And Sciences', 'Improving Accuracy And Security Of Self-Healing Procedures For Models Of Probability Distributions', 'Generalizing A Prior-Momentum Stochastic Approximation For A Smooth Probability Function', 'Distinguishing Between Positive And Unlabeled Patterns Of Online Popularity In Youtube Tensor Decomposition', 'Learning Causal Inferences With Variational Em Least Gradients', 'Distributed Estimation Of Gaussian Mixture Models On Stationary Time-Series With The Elastic Net', 'Using The Benchmark Data From Self-Embedded Experiments For Causal Inference: The Power Of Sample Reuse', 'Adversarial Dimension Reduction For Domain Generalization Through Simulation Training By Deep Networks', 'Learning To Leverage Negative Sampling For Neural Network Reinforcement Learning', 'Bayesian Optimization With An Application To Interpretability Problems', 'Learning And Exploiting Novel Drug Resistance Patterns With A Generative Adversarial Network', 'Adversarial Dimension Reduction For Training Graph Neural Models', 'Modelling Hidden Dynamics Models Using K-Means Clustering And A Mixture Of Abstention Criteria', 'Distribution Aware Active Learning With High Probability', 'Anomaly Detection For Deep Neural Networks Through Multi-Output Regression And The Posterior Robust Pam', 'Unsupervised Learning Of Lipschitz Curves From Self-Spectral Data', 'Robust Anomaly Detection For Online Similarity Graphs', 'Improved Adversarial Robustness Through Reinforcement Learning Via Feature Amplification', 'A Survey On Statistical Algorithms And Model-Agnostic Problems For Optimization', 'Learning Discrete Distributions For Graph Networks', 'Dynamic Assortment Selection Based On Optimal Orders', 'Generalized Nonlinear Estimators For Bayesian Inference', 'Distributed Estimation With Missing Measurements', 'Towards Machine Learning Architectures For Hyperparametric Dynamic Pricing', 'Unsupervised Feature Learning Via Rank-Constrained Infomax Alignment', 'The Hidden Power Of Fair Learning Policies', 'Probabilistic Regression Trees For Nonparametric Risk Assessment', 'Deep Reinforcement Learning For Multi-Label Ranking', 'Learning Embeddings On Structured Data With Linear Generative Adversarial Networks', 'Automated', 'Esianesian Networks', 'Inter-Frequency Neural Link Prediction Via Directed Network Admm', 'Graph Learning By Transforming: High-Dimensional Graph Neural Networks', 'Learning From Incomplete Data For Predicting Autism Diagnosis Using A Short Random Matrix-Bayesian Network Model', 'The Impact Of L-Bfgs On Entropy: Deep Learning For Zero Energy Communities', 'Understanding Design Trends In Architecture And Training', 'Learning Optimal Decision Trees From Large Datasets', 'Stochastic Bayesian Optimization With Covariance Matrix Based Global Optimisation', 'Improving Sub-Clusters With Resampling In Deep Reinforcement Learning', 'Variational Gaussian Processes With Variational Em For Gaussian Markov Models', 'Discovering Latent Locales For Deep Neural Networks Through Constrained Dynamical Regression', 'Bayesian Adaptive Principal Component Analysis For Two-Component Models', 'Towards Multi-Label Suprametric Classification', 'Generalized Random Forests With An Aspheric Language Background', 'Stochastic Batch The Lifecycle Simulation', 'Efficient Learning Of Smooth Probability Functions With Applications To Accelerated Algorithms', 'Robustness Of Approximate Bayesian Approximations To Data-Models', 'Stochastic Gradient Descent For Minimizing Finite Sums: Formulation Complexity And Adaptive Regret Bounds', 'Learning Kolmogorov Random Variables Via Bayesian Sampling', 'Deep Learning Of Dynamical Systems For Yield Curve Feature Extraction From High-Dimensional Data', 'Towards Learning Compact Convolutional Neural Networks', 'A Meta-Regression Approach To Explore The Impact Of Treatment On The Performance Of Self Learning On A Simian Kernel Discriminator', 'Variational Variational Inference With An Application To Cancer Research', 'Adversarially Regularised Continuous Dynamics Learning For Large-Scale Autonomous Driving Under Construction And Autonomous Mode Off', 'Robust Continuous Family Tree Based Classification', 'Learning Neural Dynamics And Sampling A Few Metrics In A Multi-Scale Model Budget', 'Faster Convergence & Generalization In Deep Learning', 'On The Convergence Of Benchmarks', 'An Empirical Bayes With Step Smoothing For Gaussian Processes', 'Learning And Exploiting Multiple Cognitive Domains For Model Inference', 'Deepcgc: Learning Hierarchical Gcgs With Progressive Accelerated Adaptive Control Networks', 'A Deep Reinforcement Learning Approach For Semi-Supervised Sorting', 'Unsupervised Multi-View Clustering With A Spatial Vector Network', 'Complementary Reinforcement Learning Based Speech Recognition', 'A Gaussian Process With Auxiliary Rules For The Separable Set Compression Problem', 'Bayesian Optimisation Over Non-Gaussian Distributions: The Impact Of State-Space Constraints', 'Semi-Supervised Learning With Deep Convolutional Neural Networks', 'Efficient Online Curvature Regularization Via $\\Rho$', ': Kernel: Deep Neural Network Trained On The Shape Of A Neuron', 'Fast Estimation Of The Maximum Entropy Of Large Linear Differential Equations', 'A Novel Multi-Armed Bandit Framework: A Convergence Study', 'The Power Of Random Features For Efficient Inference', 'A Machine Learning Approach For Estimating The Global Mean Of Graph Neural Network', 'A Simple Approximation Method For Least Squares Regularization Problems', 'Conforming Machine Learning Algorithms For Estimating Geometric Mean Curvature', 'On An Introduction To Sparse Matrix Inverse Reinforcement Learning', 'The Convergence Rate Of Langevin Filters Over Multinomial Log-Pusch Loop', 'Multi-Domain Convolutional Sparse Matrix Completion', 'Revisiting The Kernel Space For Nonparametric Convolutional Networks', 'A Theoretical Review Of Deep Learning', 'Robust Data Clustering By Multiple Label Clustering', 'Unified Sparse And Unified Multivariate Linear Regression Through Dual-Lase Learning', 'Unifying The Mean And Mean-Field Of Different Methods Of Classification', 'A Multi-Objective Framework For The Quantification Of Class-Compliant Neural Processes', 'A Dynamic Modeling Approach For Understanding Drug-Target Interaction In The First Person Shooter Video Game', 'A Comparative Study Of The Theory Of Low-Rank Matrix Factorization With Application To Class Mri Data', 'A Review Of Adversarial Training And Generalization Across Datasets', 'Deep Learning Models For Dynamic Scene Search', 'A Unified Framework For Large Scale Collaborative Image Classification Using Multi-View And Multi-Modal Generative Adversarial Networks', 'Multi-Agent Multi-Agent Learning For Unsupervised Semi-Supervised Learning', 'A Study On The Evaluation Of Robustness Methods For Deep Bayesian Neural Networks', 'A Preliminary Study On Dynamic Gaussian Process Model For Classification Of Chemical Compositions', 'Online Learning By Learning By Hypothesis', 'A Generalization Algorithm For Adversarial Learning', 'Neural Framework For Deep Neural Networks: Theory And Applications', 'On The Structure Of The Concept Of Causal Similarity', 'Online Robust Learning For Large-Scale Regression Via An Inverse-Dual Method', 'Nonlinear Policy Gradient For Deep Learning Problems In Multi-Agent Networks', 'Adaptive Policy Gradient For Scalable Inference On Latent Variables Via Deep Networks', 'An Overview On Robustness Of Deep Neural Networks', 'Dynamic Bayesian Optimization With Langevin Dynamics', 'Learning Adversarially Smooth Distributions In A Data-Agnostic Way', 'A Comprehensive Study On Recurrent Learning By Variational Autoencoders For Unsupervised Nonlinear Dynamical Systems', 'Neural Model-Based Framework For Automatic Clustering Of Unmeasured Data', 'A Framework For Training A Machine Learning Model For The Treatment Of Colorectal Cancer: A Combined Analysis Of Different Training Modelsend']
+
+
+    function newQuote() {
+        var randomNumber = Math.floor(Math.random() * (quotes.length));
+        document.getElementById("quoteDisplay").innerHTML = quotes[randomNumber];
+    }
+
+    var textToTweet = quotes[randomNumber];
+
+    function tweetQuote() {
+        window.open("https://twitter.com/intent/tweet?text=" + document.getElementById('quoteDisplay').innerHTML);
+    }
+
+    window.onload = newQuote;
+
+</script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+
+<footer class="text-center" font-family="Oswald" style="font-size: 20pt">View on <a
+        href="https://github.com/csinva/gpt2-paper-title-generator">Github</a>
+</footer>
+
+
+<div class="container-fluid">
+    <div class="jumbotron">
+        <h1 font-family: "helvetica neue" class="text-center"><strong>ML Title Generator</strong>
+        <p></h1>
+        <div class="container-responsive">
+            <div class="row">
+                <div class="col-xs-6">
+                    <a><img class="center-block img-responsive MyImage"
+                            src="http://pngimg.com/uploads/robot/robot_PNG94.png">
+                    </a><br>
+                </div>
+                <div class="col-xs-6">
+                    <div class="bubble center img-responsive"><br><br>
+                        <div class="text-center text-responsive" id="quoteDisplay">Press "New Tweet!" to
+                            see a
+                            Trump
+                            Tweet!
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 text-center">
+                    <br>
+                    <button onclick="newQuote()" class="btn btn-primary">Generate new title!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="text-center" font-family="Oswald" style="font-size: 15pt">Trained by finetuning the 117M GPT-2
+    model for 1000 steps on article titles from stat.ML between 2017-08-01 and 2019-07-01.
+</footer>
+</body>
+<style>
+
+    body {
+        background-color: black;
+    }
+
+    button {
+        box-shadow: 3px 3px 3px gray;
+    }
+
+    h1 {
+        margin: 0;
+    }
+
+    .jumbotron {
+        color: #FF6347;
+        margin: 0 auto;
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 60%;
+        background-color: #c0deed;
+        box-shadow: 3px 3px 3px gray;
+    }
+
+    .bg-primary {
+        background: #1dcaff
+    }
+
+    .bubble {
+        position: relative;
+        width: 35em;
+        height: 13em;
+        padding: 8px;
+        background: #FFFFFF;
+        margin: auto;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px gray;
+    }
+
+    .bubble:after {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        border-width: 15px 15px 15px 0;
+        border-color: transparent #FFFFFF;
+        display: block;
+        width: 0;
+        z-index: 1;
+        left: -15px;
+        top: 63px;
+    }
+
+    .center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    img.MyImage {
+        width: 14em;
+        height: 14em;
+        max-width: 100%;
+    }
+
+    div {
+        color: black;
+        font-weight: bold;
+    }
+
+
+    @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        [class*="col-"] {
+            width: 100%;
+        }
+    }
+
+    footer {
+        font-size: 1.5em;
+        color: whitesmoke;
+    }
+</style>
+
+</html>

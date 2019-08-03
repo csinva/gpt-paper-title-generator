@@ -2,7 +2,7 @@
 
 A textbot which finetunes gpt-2 to generate titles of ml papers. Main code in [scrape_finetune_pred.ipynb](scrape_finetune_pred.ipynb).
 
-Trained by finetuning the [117M GPT-2 model](https://openai.com/blog/better-language-models/) for 1000 steps on article titles from stat.ML betweem 2017-08-01 and 2019-07-01.
+Trained by finetuning the [117M GPT-2 model](https://openai.com/blog/better-language-models/) for 1000 steps on article titles from stat.ML between 2017-08-01 and 2019-07-01.
 
 # samples
 see more in [samples](samples) folder
@@ -50,4 +50,4 @@ see more in [samples](samples) folder
 - uses [gpt-2 simple](https://github.com/minimaxir/gpt-2-simple)
 - uses [arxiv-scraper](https://github.com/Mahdisadjadi/arxivscraper)
 - app based on [this tutorial](https://towardsdatascience.com/develop-a-nlp-model-in-python-deploy-it-with-flask-step-by-step-744f3bdd7776)
-- unable to deploy to heroku as model is slightly too large
+- website based on this [example](https://codepen.io/michaeltombor/pen/yoMrMj)

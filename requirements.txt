@@ -1,5 +1,0 @@
-tensorflow
-flask
-gpt_2_simple
-gunicorn
-ujson
