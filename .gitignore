@@ -13,7 +13,7 @@
 env
 **.pyc
 **.gif
-checkpoint
+checkpoint*
 models
 *.csv
 old*
