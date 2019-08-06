@@ -10,7 +10,7 @@ Well, all the cool kids seem to be training their own text bots so here's one wh
 
 
 # samples
-Here are some samples for ml titles (more in the folders named samples)
+Here are some samples for ml titles (more in the [samples](samples) folder)
 
 - A Machine Learning Framework For Computer Vision
 - A Semi-Supervised Csi-On-Icb Test For Differential Privacy
@@ -50,10 +50,17 @@ Here are some samples for ml titles (more in the folders named samples)
 - Predicting County Level Corn Yields Based On Time Series Data
 - A Deep Residual Network Approach For Predicting County Level Eegs Using Sparse And Incomplete Data
 
+# other things to train on
+
+- [witty quotes](https://raw.githubusercontent.com/akhiltak/inspirational-quotes/master/Quotes.csv) (note: some of the produced samples may be offensive)
+- limericks
+- haikus
+- song lyrics
+
+
 # reference
 
 - uses [gpt-2 simple](https://github.com/minimaxir/gpt-2-simple)
 - uses [arxiv-scraper](https://github.com/Mahdisadjadi/arxivscraper)
-- app based on [this tutorial](https://towardsdatascience.com/develop-a-nlp-model-in-python-deploy-it-with-flask-step-by-step-744f3bdd7776)
 - website based on this [example](https://codepen.io/michaeltombor/pen/yoMrMj)
 - adorable robot from [here](https://csinva.github.io/gpt2-paper-title-generator/index.html)
