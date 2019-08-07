@@ -1,6 +1,6 @@
 # auto-generating paper titles
 
-Well, all the cool kids seem to be training their own text bots so here's one which finetunes gpt-2 to generate titles of scientific papers. Main code in [scrape_finetune_pred.ipynb](scrape_finetune_pred.ipynb).
+Well, all the cool kids seem to be training their own text bots so here's one which finetunes gpt-2 to generate titles of scientific papers (or anything else). All code and instructions are in [scrape_finetune_sample.ipynb](scrape_finetune_sample.ipynb).
 
 ## settings for data gathering
 - all models are trained by finetuning the 117M model.
