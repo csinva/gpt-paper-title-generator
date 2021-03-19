@@ -1,0 +1,673 @@
+towards faster and faster kernel classification
+
+cascading neural networks
+
+learning to model neural networks and beyond: the convergence of cnn-dvd from the nonlinearity of neural networks
+
+fri: an object identification policy perspective
+
+learning deep neural networks: a comparative study of nonconvex adversarial examples
+
+deterministic linear regression in k-means
+
+learning to model deep neural networks using probabilistic machine learning
+
+stochastic gradient for high-dimensional model embedding
+
+deep reinforcement learning for deep neural networks
+
+predictive classification of complex medical applications via deep representations
+
+proximal convergence of gated adaptive linearization on sparse matrix variables
+
+a mixture of deep learning methods for structured learning: the effect of bayesian optimization and a comparison between deep neural networks and convolutional neural networks
+
+deep learning on the power of time: a review of deep convolutional neural network based applications
+
+learning to generate neural representations: a bayesian learning framework with application to deep learning and convolutional neural network under adversarial examples
+
+learning to rank deep neural networks: a practical framework
+
+fast and general neural graph-based convolutional neural networks: the nonparametric one
+
+cannibalising neural networks in the wild by unsupervised training
+
+a new neural network for multi-view multi-agent classification
+
+multilayer robust gaussian processes
+
+a statistical framework for predicting non-smooth-time time series output
+
+improved prediction over multi-agent model selection
+
+a comparative survey of deep convolutional neural networks for machine learning
+
+generative adversarial network
+
+a generative adversarial network
+
+robust robustness of robustness-based active learning for high frequency analysis over distributed networks
+
+snooping: deep stochastic adaptive linear regression
+
+deep submodular bayesian multi-armed bandits
+
+machine learning under constraints on large data sets
+
+learning to predict based on kernel uncertainty
+
+frequentized inverse approximation
+
+a probabilistic exploration-based neural network with learning and prediction methods
+
+toward machine learning of chemical and biological compounds with application to aa and to the stratigraphy of chemotypes
+
+a deep learning network for aisling screening in semi-supervised classification
+
+deep neural networks (daignn): the importance of robustness for the evaluation of deep neural networks
+
+the value of a priori robustness
+
+a probabilistic analysis of model-based optimal transport for deep neural networks
+
+deep attention networks
+
+esianesian networks
+
+inter-frequency neural link prediction via directed network admm
+
+graph learning by transforming: high-dimensional graph neural networks
+
+learning from incomplete data for predicting autism diagnosis using a short random matrix-bayesian network model
+
+the impact of l-bfgs on entropy: deep learning for zero energy communities
+
+understanding design trends in architecture and training
+
+learning optimal decision trees from large datasets
+
+stochastic bayesian optimization with covariance matrix based global optimisation
+
+improving sub-clusters with resampling in deep reinforcement learning
+
+variational gaussian processes with variational em for gaussian markov models
+
+discovering latent locales for deep neural networks through constrained dynamical regression
+
+bayesian adaptive principal component analysis for two-component models
+
+towards multi-label suprametric classification
+
+generalized random forests with an aspheric language background
+
+stochastic batch the lifecycle simulation
+
+efficient learning of smooth probability functions with applications to accelerated algorithms
+
+robustness of approximate bayesian approximations to data-models
+
+stochastic gradient descent for minimizing finite sums: formulation complexity and adaptive regret bounds
+
+learning kolmogorov random variables via bayesian sampling
+
+deep learning of dynamical systems for yield curve feature extraction from high-dimensional data
+
+towards learning compact convolutional neural networks
+
+a meta-regression approach to explore the impact of treatment on the performance of self learning on a simian kernel discriminator
+
+variational variational inference with an application to cancer research
+
+adversarially regularised continuous dynamics learning for large-scale autonomous driving under construction and autonomous mode off
+
+robust continuous family tree based classification
+
+learning neural dynamics and sampling a few metrics in a multi-scale model budget
+
+faster convergence & generalization in deep learning
+
+on the convergence of benchmarks
+
+an empirical bayes with step smoothing for gaussian processes
+
+learning and exploiting multiple cognitive domains for model inference
+
+deepcgc: learning hierarchical gcgs with progressive accelerated adaptive control networks
+
+a deep reinforcement learning approach for semi-supervised sorting
+
+unsupervised multi-view clustering with a spatial vector network
+
+complementary reinforcement learning based speech recognition
+
+a gaussian process with auxiliary rules for the separable set compression problem
+
+bayesian optimisation over non-gaussian distributions: the impact of state-space constraints
+
+semi-supervised learning with deep convolutional neural networks
+
+efficient online curvature regularization via $\rho$
+
+: kernel: deep neural network trained on the shape of a neuron
+
+fast estimation of the maximum entropy of large linear differential equations
+
+a novel multi-armed bandit framework: a convergence study
+
+the power of random features for efficient inference
+
+a machine learning approach for estimating the global mean of graph neural network
+
+a simple approximation method for least squares regularization problems
+
+conforming machine learning algorithms for estimating geometric mean curvature
+
+on an introduction to sparse matrix inverse reinforcement learning
+
+the convergence rate of langevin filters over multinomial log-pusch loop
+
+multi-domain convolutional sparse matrix completion
+
+revisiting the kernel space for nonparametric convolutional networks
+
+a theoretical review of deep learning
+
+robust data clustering by multiple label clustering
+
+unified sparse and unified multivariate linear regression through dual-lase learning
+
+unifying the mean and mean-field of different methods of classification
+
+a multi-objective framework for the quantification of class-compliant neural processes
+
+a dynamic modeling approach for understanding drug-target interaction in the first person shooter video game
+
+a comparative study of the theory of low-rank matrix factorization with application to class mri data
+
+a review of adversarial training and generalization across datasets
+
+deep learning models for dynamic scene search
+
+a unified framework for large scale collaborative image classification using multi-view and multi-modal generative adversarial networks
+
+multi-agent multi-agent learning for unsupervised semi-supervised learning
+
+a study on the evaluation of robustness methods for deep bayesian neural networks
+
+a preliminary study on dynamic gaussian process model for classification of chemical compositions
+
+online learning by learning by hypothesis
+
+a generalization algorithm for adversarial learning
+
+neural framework for deep neural networks: theory and applications
+
+on the structure of the concept of causal similarity
+
+online robust learning for large-scale regression via an inverse-dual method
+
+nonlinear policy gradient for deep learning problems in multi-agent networks
+
+adaptive policy gradient for scalable inference on latent variables via deep networks
+
+an overview on robustness of deep neural networks
+
+dynamic bayesian optimization with langevin dynamics
+
+learning adversarially smooth distributions in a data-agnostic way
+
+a comprehensive study on recurrent learning by variational autoencoders for unsupervised nonlinear dynamical systems
+
+neural model-based framework for automatic clustering of unmeasured data
+
+a framework for training a machine learning model for the treatment of colorectal cancer: a combined analysis of different training modelsend
+
+variational multi-agent network architecture for data fusion
+
+predicting patient discharge status using gene regulatory networks
+
+tensor-net: multi-faceted graph convolutional neural networks for diagnosis of psychiatric disorder
+
+bayesian regularization in deep reinforcement learning
+
+optimal transport for a mixture of differentiable data with a variational autoregressive model and a regularization procedure
+
+tensor-net: a combined training dataset for data visualization and inference
+
+online learning for time series forecasting
+
+learning with graph kernels as fast as non-convex combinatorial optimization
+
+deep networks with low-rank approximation enhance prediction of fluid intelligence
+
+proprietary learning via low rank latent variables in variational autoencoders
+
+learning recurrent neural networks via monte carlo decomposition
+
+understanding and comparing deep neural networks for text classification
+
+stacking as a constraint for neural network classifiers
+
+variational bayes: bayesian optimization for non-convex and stochastic optimization solutions
+
+learning discrete representations from text in low-power
+
+an analysis of transfer learning and statistical robustness for nonconvex learning
+
+learning to meet one's individual needs in a community for unsupervised learning
+
+learning multi-layer representation of neural networks in nonlinear time
+
+anomaly detection using convolutional neural networks
+
+machine learning data visualization: a survey
+
+deep neural networks for text classification: the k-space dimension
+
+learning multivariate patterns with bayesian neural network classifiers
+
+toward improved statistical guarantees for neural networks based on langevin dynamics
+
+variational bayes: learning variational embeddings in the langevin structure and the model-complete kernel framework
+
+a note on deep learning for vehicular travel: a general discussion
+
+variational bayes for learning diverse and scalable tensor kernels
+
+a distributed model of human visual acuity at a distance
+
+variational algorithms for robust reinforcement learning under a black-box
+
+learning a simple neural coding
+
+revisiting the history of deep learning: how many examples have been learned?
+
+efficient sparse learning on low-dimensional matrices
+
+mapping time series in time series forecasting: improved prediction techniques
+
+optimal control of the power grid in extreme weather prediction using deep learning: an application in the wireless era
+
+learning a robust framework for wireless control
+
+an exact representation of the time series of an oil company
+
+stochastic gradient for optimal machine learning: a comparison of gaussian process methodsendof
+
+a machine learning framework for computer vision
+
+a semi-supervised csi-on-icb test for differential privacy
+
+neural control variates for efficient inference and meaningful decision making
+
+unlearn what you have learned: recurrent neural networks for pre-processing speech using sparsified emotional speech
+
+learning representations for long short-term memory linked index circuits
+
+stochastic gradient mcmc for compressing neural network training for training fine-grained relationships
+
+bayesian inference and wavelet decomposition of iterative random code
+
+robust and parallel k-svm through sparsely correlated matrix decomposition
+
+towards a practical $k$-dimensional deep neural network model parameterization theory emphasizing sequence interaction
+
+deep signal recovery with dual momentum: a complexity and stability analysis based analysis
+
+fault diagnosis using deep signal recovery
+
+sparse least squares regression: robust regularization and recommendations for improved statistical validation
+
+stacking with a neural network for sequential intent classification
+
+deep residual auto-encoders for multi-label image classification
+
+sparse least squares regression for robust and adaptive classification
+
+anatomical coronary stearage reconstruction using deep 3d convolutional neural networks
+
+deep neural processes
+
+gated-cgroup communications solution for ciliary dysfunction detection using hierarchical directed acyclic graph convolutional network
+
+understanding batch normalization
+
+improving gan performance with stochastic gradients and more via optimized alternative estimation
+
+graphoisheter encephalization encephalization
+
+improving gans using covariate shift and multivariate spatial embeddings
+
+dynamic event graph convolutional networks for adverse event forecasting
+
+fast asynchronous parallel training of deep networks
+
+on the non-parametric power of logistic regression for smooth events
+
+unifying pac and learning mdps using influence functions
+
+machine learning to plan and downlink using intrinsic motivation
+
+classifier readiness testing for imbalanced data
+
+fast and scalable bayesian deep learning with limited observations
+
+a comparison of deep neural networks and adaptive graph neural networks for anomaly detection
+
+distributed deep learning with gossip networks using bidirectional lstm sensors
+
+revisiting reuse of super categories
+
+anatomical visual exploration
+
+multimodal social learning with active interest discovery
+
+stochastic variance-reduced cubic regularization for approximate inference
+
+predicting county level corn yields based on time series data
+
+a deep residual network approach for predicting county level eegs using sparse and incomplete data
+
+$\mathcal{graph}^3$-l0 optimization for large-scale structure discovery from multivariate time series
+
+on consistency of sgd over-parameterization
+
+deep clustering without subspace mining
+
+a review of transfer learning to optimize transfer learning in clinical neuroimaging
+
+sparse approximate nearest neighbor algorithms in fmri
+
+efficient transfer learning under unknown conditional inputs
+
+probabilistic clustering with missing values
+
+an online method for multi-view learning with overlapped clustering
+
+a probabilistic framework for modeling with hidden markov models via the partial substitute hypothesis
+
+adversarial variational autoencoders for bayesian inference
+
+a tutorial on nonlinear parameter learning for non-stationary sensing
+
+sparse exponential families
+
+a machine-learning approach to optimal control of hypoxemia through short durations
+
+convexification of nonlinear transformations to approximate tensor completion through convex optimization
+
+learning linear models under a convex function plane without smoothness bounds
+
+bayesian nonparametric variational autoencoders
+
+bayesian maximum margin activation functions and its application to all variational bayes
+
+learning sparse probabilistic flows
+
+a new class of statistical fingerprinting methods with applications to non-stationary sensor fusion
+
+a non-parametric dual averaging stochastic gradient descent algorithm for bayesian non-negative matrix factorization
+
+non-asymptotic convergence of natural gradient descent in statistical parametric models
+
+towards a theoretical understanding of inverse dynamics
+
+on the geometry of projection-convexity matrices
+
+deep generative models
+
+deep spectral network
+
+on implicit variational inference
+
+learning a polynomial-form markov chain rule for gaussian processes
+
+generative adversarial networks
+
+concretexgradient: convex optimization with concrete network model for inverse cuing processes
+
+how well does your neural network know your weight?
+
+learning nonlinear embeddings via generalized quadratic activation functions
+
+deep and flexible policy networks for autonomous vehicles
+
+online learning algorithms for real-valued input dynamics
+
+differentiable learning algorithms with arbitrary precision matrices
+
+clustering with simultaneous sparse gaussian processes
+
+a generative adversarial net for music generation and release
+
+towards adversarial training with aicnet-enhanced initialization rates
+
+distributed sequential learning and generation
+
+semi-supervised and hierarchical clustering with a traditional gaussian process prior
+
+on the learning properties of deep neural networks with limited activation space for noise-relief
+
+efficient estimation and improper selection of targets for classification
+
+adversarial risk-reducing text generation by learning to optimize
+
+fast convergence of partial gradient methods for sparse representation learning
+
+learning to customize and adapt for machine learning on demand forecasts
+
+training and interpreting robust classifiers by training and designing experiments
+
+predicting the composition of crime groups
+
+a benchmark task for out-of-distribution detection at runtime for neural network training
+
+adaptive matrix completion: optimal information rates for the humanities and sciences
+
+improving accuracy and security of self-healing procedures for models of probability distributions
+
+generalizing a prior-momentum stochastic approximation for a smooth probability function
+
+distinguishing between positive and unlabeled patterns of online popularity in youtube tensor decomposition
+
+learning causal inferences with variational em least gradients
+
+distributed estimation of gaussian mixture models on stationary time-series with the elastic net
+
+using the benchmark data from self-embedded experiments for causal inference: the power of sample reuse
+
+adversarial dimension reduction for domain generalization through simulation training by deep networks
+
+learning to leverage negative sampling for neural network reinforcement learning
+
+bayesian optimization with an application to interpretability problems
+
+learning and exploiting novel drug resistance patterns with a generative adversarial network
+
+adversarial dimension reduction for training graph neural models
+
+modelling hidden dynamics models using k-means clustering and a mixture of abstention criteria
+
+distribution aware active learning with high probability
+
+anomaly detection for deep neural networks through multi-output regression and the posterior robust pam
+
+unsupervised learning of lipschitz curves from self-spectral data
+
+robust anomaly detection for online similarity graphs
+
+improved adversarial robustness through reinforcement learning via feature amplification
+
+a survey on statistical algorithms and model-agnostic problems for optimization
+
+learning discrete distributions for graph networks
+
+dynamic assortment selection based on optimal orders
+
+generalized nonlinear estimators for bayesian inference
+
+distributed estimation with missing measurements
+
+towards machine learning architectures for hyperparametric dynamic pricing
+
+unsupervised feature learning via rank-constrained infomax alignment
+
+the hidden power of fair learning policies
+
+probabilistic regression trees for nonparametric risk assessment
+
+deep reinforcement learning for multi-label ranking
+
+learning embeddings on structured data with linear generative adversarial networks
+
+deep neural networks-related activity recognition with noisy label data
+
+unsupervised cross-modal imitation learning with reinforcement learning
+
+online learning in multi-label settings using deep learning
+
+bayesian dual averaging networks for bayesian learning
+
+sales forecast and valuation planning for crowdsourced taxi-hailing platform
+
+general multi-agent reinforcement learning for autonomous driving from scratch
+
+online learning with graph convolution for heterogeneous graph prediction
+
+a distributed machine learning approach for the classification of rare genetic diseases
+
+theoretical stability and robustness of stochastic bandits to adversarial attacks
+
+the nonasymptotic regime for learning the stochastic gradient hamiltonian monte carlo
+
+autoregressive matrix completion
+
+theoretical guarantees for the stability and robustness of deep neural networks
+
+optimal rates and distributions for sampling and optimization of deep neural networks
+
+a review of gradient descent and regularization methods for deep neural networks
+
+gradient descent in linear time
+
+predicting of the clinical outcome with a graph convolutional neural network on a cell level
+
+distributional feature selection based on a convex minimization
+
+learning to crawl
+
+a nonconvex approach to non-monotone non-\"apart from the unknown\"
+
+a quantum annealing algorithm for dimension-sensitive non-convex optimization
+
+a probabilistic view of robust multimodal neural network architecture search
+
+learning to use word embeddings in source code in interactive contexts
+
+a latent-variable model for nonstationary time series forecasting with application to epilepsy
+
+on compressive metamodulation in the sparse recovery procedure
+
+multi-input sparse multi-label classification with label-aware contextual policies
+
+improved deep learning to predict treatment effects in chronic kidney injury
+
+differential transparency between kernel and non-kernel methods for batch multivariate data
+
+neural-network architecture search in real world applications
+
+a simple and effective non-mathematical basis for explaining machine learning models
+
+learning discrete and continuous parameters from streaming data
+
+stochastic gradient descent with variance reduction for non-differentiable models
+
+diversity-enhanced reinforcement learning for deep neural networks
+
+a meta-learning approach to human behavioral control for road safety
+
+theoretical properties of the random walk model
+
+adversarial training with optimal control
+
+learning to scale by generating random fields
+
+a general framework: theory and applications
+
+hierarchical nonparametric bay
+
+oftexton the effect of model-based training of deep neural network on text
+
+a machine learning-based algorithm for smoothed linear discrete matrices with applications to phase retrieval and matrix completion
+
+a comprehensive survey on reinforcement learning for deep systems
+
+robust bayesian inverse covariance estimation
+
+the effect of model parameters on the expected distributions of continuous and dissimilarities in gaussian regression with missing covariates
+
+learning optimal transfer
+
+a stochastic online sparse mixture model with low-rank matching
+
+the dynamics of nonlinear embedding estimation
+
+nonnegative matrix factorization and deep learning: a survey
+
+structure learning of linear dynamical systems
+
+variational bayesian multi-task deep learning: an efficient
+
+deepest approximate nonnegative matrix factorization
+
+re-purposing and understanding the natural language for model selection
+
+machine learning for prediction of alzheimer's disease dementia
+
+learning deep linear neural networks without regularization via inductive modeling: application in the case of epilepsy
+
+the importance of bregman constants in the stochastic variance of approximate nonnegative matrix factorization
+
+deep learning based off-policy segmentation on the subcontinent of guernsey
+
+stochastic optimization with local information sampling
+
+machine learning for time series analysis: a formalization approach
+
+discovering missing linkages in dynamical networks
+
+unseeded stochastic variance-reduced cubic regularization by linear convergence
+
+pilae-rnn: provable adaptive neural network
+
+variational inference with $\beta$-derivative-q expansions via approximating posterior for non-convex low precision matrices
+
+predicting return trajectories for bonds
+
+learning to play pong with sparsely-regularized mixed-skill games
+
+dictionary learning with deep networks
+
+a multiplayer fourier network for automatic speech recognition
+
+learning in two-player convolution
+
+on the convergence of a structured derivative from a gaussian-vectors structure
+
+stochastic variance-reduced reconstruction of neural networks
+
+efficient computation of the mean over sparse vector graph
+
+a generative model for sequence-to-sequence learning
+
+multi-fidelity multi-armed workers data analysis
+
+demystifying kronecker-structured bayesian modeling using bayesian geodesics
+
+online convergence of machine vision algorithms for deep neural networks
+
+convexification of stochastic mirror descent algorithms
+
+on the complexity of learning sparse linear classifiers for high-dimensional data: a review
+
+a machine learning framework

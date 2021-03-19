@@ -1,0 +1,269 @@
+an integrative study of the brain imaging data using latent process
+
+criticality in brain network architecture
+
+a bayesian approach for quantifying structural connectivity in eeg data
+
+statistical tools for genomic analyses
+
+analytic analysis of neuronal morphology using bromo-associative data
+
+the temporal and spatial relationships of functional brain network patterns
+
+the impact of long-term fmri on neurocognitive disability and dementia in ageing populations: implications for current theories
+
+the influence of white matter atrophy on white matter connectivity patterns in patients with cognitive impairment
+
+a multivariate analysis of white matter dynamics during fmri-derived functional connectivity
+
+deep deep brain network training approach to quantify dynamic memory performance
+
+structural connectomes: a service of human neuroimaging and machine learning
+
+predicting the future behavior of insects by using visual coding
+
+the neural architecture of the human head: implications for the study of motion sickness and neurophysiological signals in epilepsy
+
+the importance of perceptual time synchronization when viewing short movies
+
+an empirical test of the reliability and robustness of perceptual time-disrupted motion sickness reports by non-smarter species
+
+identification of spatolytic nerve fiber components in the human gut cell wall
+
+the effect of spiking pattern frequency on electrical activity in the human central visual system
+
+a model for predicting the distribution of spatiotemporal motion-dispersion probabilities between different stimuli
+
+emergence of spontaneous perception and perception in evolution
+
+dynamics of self-organized thought in spontaneous visual-tactile stimuli
+
+spike-free networks of spiking neurons capture spike-timing invariant rhythms and propagate during asynchronous action potential recording
+
+a non-stationarity-neutral loop component-free network model of the bci
+
+stochastic networks of spiking neurons with electrophysiological activity and labeled potassium oxide pyruvate storage
+
+a network of brainstem neuron models and associated neural and electrophysiological data is revealing a large scale connectome
+
+a nonparametric deep learning model of the visual cortex enables deep neural networks to detect motion and to control object detection with precision
+
+the importance of self-organized thought in shaping perception
+
+integration of brain based epilepsy surgery and seizure control software
+
+spike-based neuronal recordings in a population of spiking neural networks with spiking inhibition
+
+detecting the distribution of functional brain networks in patients with advanced brain injuries by convolutional neural networks
+
+neuropeptidistention and reward-coupled network prediction using supervised learning
+
+quantifying epileptiform ensembles using sparse models
+
+a neural network model and supervised learning for seizure prediction
+
+a neural network model of epileptic seizure prediction
+
+an analysis of the effect of the frequency
+
+sarif: a functional neuronetwork model of language memory for human verbal comprehension study. a: eps
+
+sadness and complexity in a neurobiology-inspired framework and applied to eeg decoding and decoding of video-derived brain signals: a brief review. o: eax
+
+sadness and complexity in a neurobiology-inspired framework and applied to eeg decoding and decoding of video-derived brain signals: a brief review. o: eax
+
+sappi: a high resolution eeg model for eeg detection using the sparse approach in a dynamic environment. o: eax
+
+sassal: a simple approach to extracting visual information from neural representations. o: otokamori: a fast method to interpret the shape of a neuronal stimulus graph
+
+sappi: a high resolution eeg model for eeg detection using the sparse approach in a dynamic environment. o: otokamori: a fast method to interpret the shape of a neuronal stimulus graph
+
+sassal: a simple approach to extracting visual information from neural representations. o: otokamori: a fast method to interpret the shape of a neuronal stimulus graph
+
+sappian spiking neural network with dna filters supporting spiking-non-spiking signals from cadaver-dna sources in two-dimensional neural systems
+
+sally: an efficient model of neural activity in alzheimer's disease spectrum based on local visual fields for visual recognition in fmri signals
+
+sally: a generalization of sigmoidal neural activity detection and identification of single nucleotide polymorphisms by tandem reduction of 3′-diamonds and tandem reduction of 9′-diamonds genomic sequence
+
+sassal: a simple approach to extracting visual information from neural data using dna filters
+
+sassal: a simple approach to extracting visual information from neural data by combining dna signals from the primary visual field with the local eeg signal in visual cortex of the animal retina
+
+scrobble: fast visual segmentation of large dataset of eeg brain signal
+
+sciencing: a novel approach to identify genes from genome sequences with high fidelity
+
+scrobble: a toolbox for generating phylogenetically based genotyping data using regular expressions
+
+scrobble: a simple graph-theoretic method to generate large number of motifs of an eeg motif and detect genomic rearrangings in cnn-seq
+
+scrambling for a graph-theoretic approach to infer the causal role of a model neural network in spatio-temporal memory for human speech through non-human language
+
+scrambling for a graph-theoretic approach to infer the causal role of a model neural network in spatio-temporal memory for human speech through non-human language
+
+scrambling for a graph-theoretic approach to infer the causal role of a model neural network in spatio-temporal memory for human speech through non-human language
+
+simonsh: improving the accuracy of large-scale brain networks in machine learning for population-level modeling
+
+simonsh: improving the accuracy of large-scale brain networks in machine learning for population-level modeling of microevolutionary neural network simulation
+
+simonsh: improving the accuracy of large-scale brain networks in machine learning for population-level modeling of microevolutionary neural network simulation
+
+samba: a fast and reliable method for extracting single nucleotide polymorphism from genome sequences
+
+samba: an unsupervised probabilistic approach to detection of high frequency eeg noise in spiking neuron data
+
+stat: an approach to integrate statistical analysis with multi-level fmri based neuroimaging
+
+samba: an approach to integrate statistical analysis with multi-level fmri based neuroimaging
+
+stochastic field fluctuations in a high-order sparse sparse manifold
+
+statistics of brain structural brain network abnormalities using sparse fmri
+
+network machine learning with recurrent neural networks
+
+instruments to the eeg hypothesis
+
+quantum computer architecture with spiking neural networks
+
+nonlinearity in quantum systems
+
+inverse non-parametric convolutional neural networks: from one generation to the next
+
+a causal model for the neural network with an intrinsic topology
+
+quantum information is the single most important information involved with decision making in human choice making
+
+a new type of information-driven decision for self-organized human behavior is constrained by the number+length
+
+a dynamic network of self-regulatory receptors in the brain's visual cortex
+
+the influence of sensory and affective features on the control of human vision: the role of neural activity
+
+a novel approach to inferring the presence of a stimulus in a visual area
+
+a theoretical framework for a neural representation of binary space in recurrent neural networks
+
+stochastic correlations as features in brain networks
+
+the value of a theory of mind
+
+dynamics of behavior and learning via eegs
+
+simulating recurrent neural dynamics with a machine-learning approach
+
+identity and classifying the eeg-related structural equation
+
+a network-based approach to neural machine learning
+
+neural models of the human brain
+
+modeling the dynamics of physical phenomena by artificial neural networks
+
+inverse non-parametric neural networks
+
+the dynamics of the distributed connectivity in human connectome
+
+network-based recurrent neural network architectures with eegs
+
+homo-chromatid-positive coding in spinocerebellar chromatography reveals a large degree of shared neural activity
+
+the role of the inhibitory control network in neurodegenerative diseases
+
+inverse non-parametric neural networks
+
+universality and the dynamics of natural selection control networks in the brain
+
+human genome genome transfer study: an overview
+
+determining the effects of multiple neural applications on biological networks
+
+using fmri and a large open-source statistical model to detect functional networks of a neuron during the process of learning to read
+
+quantum energy equivalence in neural networks
+
+a multilevel representation of the dynamics of the spiny and the spiky lobes in human retina
+
+the effect of physical properties on synaptic plasticity in spiny and spiky spines
+
+spiny and spiky spines in the brain: evidence from a single sample of spiny and spiky retina scans
+
+stochastic scaling in the human brain
+
+quantum neural circuits in the human central nervous system are trained by neural networks
+
+possible causal connection between sleep stage and neurodevelopmental disorders
+
+a neural architecture framework to optimize functional connectivity in schizophrenia patients
+
+the role of signal processing in the synchronization of long-term plastic time series
+
+optimal covariance: a possible solution to the rare inversion problem
+
+a review on brain network analysis: the mri study in focus: performance and pitfalls
+
+neuronal circuits involved in memory and cognition
+
+the role of parallel computation in the dynamics of neuronal networks
+
+the influence of nonlinear dynamical systems on synchronizing systems
+
+optimal coding of external stimuli for spatial learning
+
+the role of temporal dynamics in network topology
+
+multimodal clustering algorithm for clustering coexisting networks
+
+modeling sensory perception and the visual cortex: implications for visual spatial learning
+
+on the reliability of signal counts in spatio-temporal brain activity
+
+the influence of optical illusion on visual sensory performance
+
+a review on the mri model of primary visual cortex dynamics: classification and graph deconvolution
+
+the influence of quantum mechanical principles on cortical dynamics
+
+information integration and synchronization on the nervous circuit
+
+a novel network of neurons controlling a computer interface
+
+towards a theory of perception and description in the connectome of the human brain
+
+the case for an integrated cognitive architecture for neuroscience
+
+how to decode ambiguous visual stimuli from human communication signals
+
+quantitative consciousness: critical theories and applications
+
+the role of self-organized information processing for conscious awareness
+
+an integrative account of the hippocampus's synchronization
+
+integrating machine learning with epilepsy data to improve seizure prediction
+
+spike detection using the spike-mapping approach
+
+a comparative study of the accuracy of deep networks in decoding human brain activity
+
+quantifying the impact of hidden markers on the reliability of network detection
+
+on the synchronization of the activity kinetics of neurons and their couplings in a network of spike centers
+
+neural measures of computational cost-effect of diffusion in deep neural networks
+
+learning time codes for quantum information states
+
+multivariate inference from spatiotemporal brain data
+
+how the brain knows what it is doing
+
+a new approach to decoding brain-wide electroencephalographic signals: the connectome index (cep)
+
+dynamical system analysis
+
+a comparison of the response times of diffusion images in the context of spiking neural networks
+
+fast and controllable convolutional neural network for image recognition
