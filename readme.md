@@ -10,10 +10,11 @@ Well, all the cool kids seem to be training their own text bots so here's one wh
 - **quantum**: Trained for 150 steps on a couple thousand article titles from arXiv quant-ph between 2019-05-01 to 2019-07-03.
 - [witty quotes](https://raw.githubusercontent.com/akhiltak/inspirational-quotes/master/Quotes.csv) (note: some of the produced samples may be offensive)
 - **tweets**: Trained on the super funny tweets by [@SICKOFWOLVES](https://twitter.com/SICKOFWOLVES) (uses 355M model)
+- **kdrama plots**: Trained on [kdrama synopsis first paragraphs](https://en.wikipedia.org/wiki/List_of_South_Korean_dramas)
 
 # samples
 
-Here are some samples for ml titles (more in the [samples](samples) folder)
+Here are some samples for ml titles (more in the [samples](samples) folder, e.g. [quantum titles](samples/samples_quantum/all.txt), [kdrama synopses](samples/samples_kdrama_synopses/all.txt), [witty quotes](samples/samples_witty_quotes/all.txt))
 
 - A Machine Learning Framework For Computer Vision
 - A Semi-Supervised Csi-On-Icb Test For Differential Privacy

@@ -1,7 +1,7 @@
 import os
 
 all_samples = []
-d = 'samples_wolf_tweets'
+d = 'run1'
 for fname in sorted(os.listdir(d), reverse=True):
     if not fname.startswith('samples'):
         continue
