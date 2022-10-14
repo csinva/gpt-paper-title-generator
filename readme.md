@@ -1,8 +1,16 @@
-# auto-generating paper titles
+# Auto-generating paper titles
 
-Well, all the cool kids seem to be training their own text bots so here's one which finetunes gpt-2 to generate titles of scientific papers (or anything else). All code and instructions are in [scrape_finetune_sample.ipynb](scrape_finetune_sample.ipynb). Works with python 3.6 and tf 1.15.0.
+## Finetuning gpt3
 
-## settings for data gathering
+
+2022 update -- I guess a lot happened since 2019.
+
+
+## Finetuning gpt2 (from 2019 AKA "Back in the day")
+
+Well, all the cool kids seem to be training their own text bots so here's one which finetunes gpt-2 to generate titles of scientific papers (or anything else). All code and instructions are in [gpt2/scrape_finetune_sample.ipynb](gpt2/scrape_finetune_sample.ipynb). Works with python 3.6 and tf 1.15.0.
+
+### Settings for data gathering
 
 - all title-generating models are trained by finetuning the 117M model
 - **ml**: Trained for 1000 steps on article titles from stat.ML betweem 2017-08-01 and 2019-07-01 with 'learning' in the abstract.
@@ -12,7 +20,7 @@ Well, all the cool kids seem to be training their own text bots so here's one wh
 - **tweets**: Trained on the super funny tweets by [@SICKOFWOLVES](https://twitter.com/SICKOFWOLVES) (uses 355M model)
 - **kdrama plots**: Trained on [kdrama synopsis first paragraphs](https://en.wikipedia.org/wiki/List_of_South_Korean_dramas)
 
-# samples
+## Samples
 
 Here are some samples for ml titles (more in the [samples](samples) folder, e.g. [quantum titles](samples/samples_quantum/all.txt), [kdrama synopses](samples/samples_kdrama_synopses/all.txt), [witty quotes](samples/samples_witty_quotes/all.txt))
 
@@ -54,14 +62,14 @@ Here are some samples for ml titles (more in the [samples](samples) folder, e.g.
 - Predicting County Level Corn Yields Based On Time Series Data
 - A Deep Residual Network Approach For Predicting County Level Eegs Using Sparse And Incomplete Data
 
-# other things to train on
+## Other things to train on
 
 - limericks
 - haikus
 - song lyrics
 
 
-# reference
+## Reference
 
 - troubleshooting: if you get an error, it might help to run `export PYTHONIOENCODING=ASCII` before finetuning
 - uses [gpt-2 simple](https://github.com/minimaxir/gpt-2-simple)

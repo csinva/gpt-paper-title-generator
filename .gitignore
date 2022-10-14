@@ -21,3 +21,4 @@ old*
 **Icon*
 finetune.py
 gpt-2-simple
+gpt3/**json*
