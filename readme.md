@@ -3,7 +3,7 @@
 ## Finetuning gpt3
 
 
-2022 update -- I guess a lot happened since 2019.
+2022 update -- I guess a lot happened since 2019. Let's see how modern models do at this task...
 
 
 ## Finetuning gpt2 (from 2019 AKA "Back in the day")
