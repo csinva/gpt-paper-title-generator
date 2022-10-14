@@ -47,11 +47,12 @@ model = model.half()
 # set up trainer
 training_args = TrainingArguments(
     output_dir='title-' + checkpoint.replace('/', '__'),
-    learning_rate=5e-05, # default is 5e-05
-    per_device_train_batch_size=1,
+    learning_rate=1e-06, # default is 5e-05
+    per_device_train_batch_size=2,
+    gradient_accumulation_steps=10,
     num_train_epochs=4,
     save_strategy='steps',
-    save_steps=3600, # roughly one it/second
+    save_steps=500,
 )
 trainer = Trainer(
     model=model,
