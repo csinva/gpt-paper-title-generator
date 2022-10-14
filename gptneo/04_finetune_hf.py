@@ -11,8 +11,8 @@ import pickle as pkl
 from transformers import AutoTokenizer, DataCollatorWithPadding, AutoModelForCausalLM, TrainingArguments, Trainer, DataCollatorForLanguageModeling
 
 # hyperparams
-checkpoint = "EleutherAI/gpt-j-6B"
-# checkpoint = "EleutherAI/gpt-neo-2.7B"
+# checkpoint = "EleutherAI/gpt-j-6B"
+checkpoint = "EleutherAI/gpt-neo-2.7B"
 # checkpoint = "gpt2-xl"
 tokenizer = AutoTokenizer.from_pretrained(checkpoint)
 tokenizer.pad_token = tokenizer.eos_token
@@ -47,11 +47,11 @@ model = model.half()
 # set up trainer
 training_args = TrainingArguments(
     output_dir='title-' + checkpoint.replace('/', '__'),
-    learning_rate=5e-06, # default is 5e-05
+    learning_rate=5e-05, # default is 5e-05
     per_device_train_batch_size=1,
     num_train_epochs=4,
     save_strategy='steps',
-    save_steps=50,
+    save_steps=3600, # roughly one it/second
 )
 trainer = Trainer(
     model=model,

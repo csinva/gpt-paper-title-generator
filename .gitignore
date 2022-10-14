@@ -21,6 +21,6 @@ old*
 **Icon*
 finetune.py
 gpt-2-simple
-gpt3/**json*
-gpt3/title*
-gpt3/*checkpoint*
+gptneo/**json*
+gptneo/title*
+gptneo/*checkpoint*
