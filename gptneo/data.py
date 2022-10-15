@@ -25,3 +25,19 @@ def get_metadata():
         df = df.sort_values(by='date') # most recent papers at bottom
         df = df.to_pickle('../data/arxiv_metatadata_2022_clean.pkl')
     return df
+
+
+def generate_samples(model, tokenizer, prompt='2020\n\n', num_return_sequences=1):
+
+    # decode some examples
+    eos_token_id = tokenizer('\n')['input_ids'][0]
+    inputs = tokenizer(prompt, return_tensors='pt').to(model.device)
+    outputs = model.generate(
+        **inputs,
+        do_sample=True,
+        eos_token_id=eos_token_id,
+        max_new_tokens=25,
+        num_return_sequences=num_return_sequences,
+        # temperature=0.1,
+    )
+    return tokenizer.batch_decode(outputs, skip_special_tokens=True)
