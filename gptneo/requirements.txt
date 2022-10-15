@@ -14,7 +14,7 @@ argon2-cffi-bindings==21.2.0
 asttokens==2.0.8
 async-timeout==4.0.2
 attrs==22.1.0
-autobahn==17.10.1
+autobahn==20.12.3
 Automat==0.8.0
 azure-common==1.1.28
 azure-containerregistry==1.0.0
