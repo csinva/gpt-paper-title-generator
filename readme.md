@@ -1,4 +1,6 @@
-# Auto-generating paper titles
+<h1 align="center">
+	Auto-generating paper titles
+</h1>
 
 ## Paper title by author (gpt3 text-davinci-002)
 
