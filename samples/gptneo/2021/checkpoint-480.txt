@@ -1,0 +1,79 @@
+'Stochastic Neural Network for Sparsity Constraints in Graph Neural Networks via Mean-Field Variational Bayes'
+
+'Inference of Bayesian Network Formulas for Complex Systems with Application to Image Classification'
+
+'Uncovering the Sparsity Structure of Nonlinear Graph Embeddings via Random Projection'
+
+'An Application of Gradient Descent in Machine Learning'
+
+'On Approximation to Partial Linear Independence and Independence in Probabilistic Logic: A Computational Approach'
+
+'Rethinking Deep Learning Training: The Role of Contrast and Noise'
+
+'Efficacy of Different Path Planning Methods in Reinforcement Learning-Based Cooperative Planning'
+
+'Optimized Stacking of Distribute and Distributed Tensor Networks for Generalized Low Rank Block Recovery'
+
+'DERIVE, ADAPTIVE and FAIR: DRAINED-ADAPTIMER-FRE'
+
+'Deep Learning based High-Throughput Screening to Identify Biopharmaceutically Active Compounds from a Whole Cell'
+
+'Generating Visualizations and Data with Generative AI Techniques'
+
+'A Framework for the Study of Human-Computer Interaction'
+
+'Dynamic Bayes Forests and Sparse Clustering: A Study in Time Series Classification'
+
+'The Bias-Free Universal Bayesian Universal Inference Principle'
+
+'Towards Generalized Semantics for Autonomous Agents'
+
+'Learning to Decode and Generate Music from Sequences of Images'
+
+'Learning Non-overlapping Graph Representations with Graph Convolutional Networks'
+
+'The Importance of Normalization in Deep Learning'
+
+'Multi-scale Deep Neural Network for Feature Extraction of Seismic Data'
+
+'Is the Kernel-Based Approach Feasible for the Design of Low-cost Semiconductor Mice?'
+
+'Neural-Network-Based Image Representation Learning for Deep Learning, Data Augmentation and Classification'
+
+'Deep Relevance Detection of Textual Sentences for Medical Knowledge Bases'
+
+'Multi-task Learning: The case of multivariate time-series with time series and signal analysis'
+
+'Learning Algorithm for Unsupervised Domain Adaptation'
+
+'An Improved Version of the Adversarial Conjugate Gradient Algorithm in the $ \\Phi \\Rightarrow \\'
+
+'Multi-task learning for long-horizon energy forecasting and forecasting error measures'
+
+'Towards a Multi-Target Autonomous Agent for Urban Planning with Spatial Planning and Path Trajectory Planning'
+
+'Efficient, High-Performance DNNs for Large-Scale Semi-supervised Transfer Learning'
+
+'A Generalized Approach to Scalable Deep Learning with Application to Deep Contrastive Learning'
+
+'Fast Estimation of Normal Distributions of Data with Random Features'
+
+'Bayesian Machine-Learning Approach to Estimating the Parameters of the Gaussian Cox Model'
+
+'Unifying Data Privacy and Confidential Learning in Recommendation Systems'
+
+'An End-to-end Speech Enhancement for Efficient Voice Conversion'
+
+'The Importance of Bias in Batch Network Training'
+
+'Improving the Quality of Neural Networks by Using Neural Decomposition and Generalisation Theory'
+
+'Predicting Fairness in Social Media Analysis using Convolutional Neural Networks'
+
+'The Importance of Data Distortion as a Barrier Against Fairness'
+
+'Is It Better to Do Better or Are the Results Worth the Effort? Generalization vs. Precision'
+
+'Improving Predictive Modelling with Adaptive Decision Trees'
+
+'A hybrid meta-learning scheme for low-resource multi-task dialogue planning'

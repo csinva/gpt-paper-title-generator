@@ -1,0 +1,79 @@
+'Evaluating Machine Learning Models for Stutter Prediction in English'
+
+'A deep learning-based approach for the prediction of acute kidney injury in ICU patients'
+
+'A Framework for Interpreting Diagnosis and Monitoring Results in the Viable Cell Tracking Challenge'
+
+'An Attention based Framework based on a Gaussian Process of Textual Entity Information for Automatic Medical Text Annotation'
+
+'Dynamic Deep Reinforcement Learning Environments and Task Representations Using Multi-Agent Deep Reinforcement Learning'
+
+'Optimising Data-driven Feature Selection for Recommender Systems with Medical and Behavioral Data'
+
+'Deep Attention for Attention-Based Image Captioning'
+
+'Detecting Fake Reviews Using Machine Learning'
+
+'Dynamic Network Structure-Aware Deep Learning for Audio Source Separation'
+
+'Identifying and Exploiting Adversarially Caused Class Error Using Gradual Learning'
+
+'Multivariate Adaptive Boosting and Optimization Algorithms in the Presence of Multicollinearity and Overfitting'
+
+'Towards Data-Efficient Graph Regularized Regression With Batch Sampling'
+
+'Improving the robustness of the gradient-based optimization to outliers for learning regularized least-squares problems'
+
+'Learning to Improve the Power Efficient Power Substation from Micro-Wave Aerial Photos'
+
+'A General Methodology for Measuring Social Impact: The Case of Micro-Certification of Social Impact'
+
+'Data-driven clustering and feature construction for the classification of breast cancer'
+
+'Deep Learning of Strain-field in In situ Micrographs from Tilt-corrected X-ray Microscopy'
+
+'Learning Efficient Hierarchical T-SNE Network for Sparse Image Recognition'
+
+'An Adaptive Hierarchical ResNet With Feature-wise Attention for Person Detection'
+
+'Fast, Iterative, Data Distortion-robust Principal Component Scaling for Large-scale Data Clustering'
+
+'Neural Variational Autoencoders via the Momentum Algorithm with Explicit Backprop'
+
+'Learning from a Single Point: Spreading Covariate Weighting for Multi-Label Classification'
+
+'A new perspective in the modeling of multilayer neural networks'
+
+'Towards a Theory of Adversarial Image Denoising'
+
+'Modeling the Influence of Users on User Interests with a Personalized Feed'
+
+'Inference of the mean of a multivariate normal distribution without using a covariance matrix'
+
+'Evaluating the Quality of the Data Placement Methods in Folding of Prostate Cancer Proteins'
+
+'Bounding the Effect of Covariate Shift for Regularizer in Non-Parametric Regression'
+
+'Optimizing the Design of a Deep Reinforcement Learning Agent'
+
+'Evaluating the Influence of Noncollapsing Features on the Performance of Neural Networks: The Unsupervised Constraint-'
+
+'Evaluating different loss functions for image retrieval in the absence of a ground truth'
+
+'Inverse Optimal Transport Using Stochastic Graph Matching'
+
+'Improving the Detection of Infected Files through Using the Deep Learning Approach'
+
+'Dynamic Resilience of Disturbance-Based Adversarial Example Detection and Correction'
+
+'Deep Reinforcement Learning for Online Learning of Continuous Deep Neural Networks'
+
+'A Bayesian Neural Network Framework for Semantic Question Answering'
+
+'Towards Scalable and Flexible Semantic Segmentation of 3D Human Models Obtained from CT Images'
+
+'Neural networks based segmentation of brain on digital image'
+
+'Unveiling the role of non-Gaussianity to identify high dimensional anomaly detection'
+
+'Model-driven deep learning for estimating the time to discovery'

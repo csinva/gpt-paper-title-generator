@@ -1,0 +1,79 @@
+'On the Importance of Data-Driven Optimization in Training Deep Neural Networks'
+
+'Inference of Bayesian networks in a Bayesian neural network model of visual information processing'
+
+'Understanding how to evaluate machine learning methods: the importance of selection'
+
+'Predictors of Adversarial Defense in Machine Learning: A Meta-Analyses Perspective'
+
+'Understanding Non-negative Matrix Factorization in Probabilistic Graphical Models'
+
+'Rethinking Deep Neural Networks with a New Interpretability Metric'
+
+'On Combining Local and Global Visual Representations for Neural Architecture Search'
+
+'Inferring the distribution of missing data in heterogeneous and incomplete data'
+
+'Causal Evaluation Using Causal Model Induction and an Ensemble of Provenance'
+
+'Tackling Semantics for Machine Learning through Generalization: The Sem-MACH Approach'
+
+'Towards Understanding Contextual Influence in Multi-class Classification Models'
+
+'On the Robustness of Probabilistic Forecasting to Missing Values'
+
+'A Deep Multi-level Inference Framework for Inverter Based Distributed CVD'
+
+'The Evolution of Language with Generative Deep Neural Networks: Learning to Generate Sentences?'
+
+'Learning to Make a Decision for the Right Reward under the Wrong Constraint in Reinforcement Learning'
+
+'A Machine Learning-Based Framework for Quantifying the Impact of Artificial Intelligence'
+
+'Improving Gait Transition Detection Accuracy During Active Walk by Using Multiple Ground Planes'
+
+'Investigating Visual Reasoning in a Mixed-Reality Environment'
+
+'A Novel End-to-End Speech Utterance Monitoring System based on the DGA'
+
+'Estimating the Sample Complexity of Machine Learning Models across Machine Learning Techniques'
+
+'A Novel Deep Learning Approach for COVID-19 Clinical Classification'
+
+'Efficient AlonNet: Parallel Deep Networks with Efficient Communication'
+
+'A New Framework for Machine Learning in Biomechanics'
+
+'BERT -- A Graph Attention Model for Text Classification with Few and Unlabeled Text Data'
+
+'Perturbations of Quantum Processes Using Approximate Quantum Physics'
+
+'The Importance of Data in Generative Models Without Labels'
+
+'Bayesian Network Learning with Low-Rank Covariance'
+
+'Efficient Optimality of Dynamic Graph Optimization using Particle Filtered Gradient Descent'
+
+'Taming Time by Leveraging Memory and Knowledge Graphs'
+
+'Predicting Student Attendances in a Classroom Setting with a Convolutional Neural Network'
+
+'BERT: A BERT Model for Medical Text-to-Document Translation'
+
+'Machine Learning Approach for Real-time Decision Making and Optimization in IoT Environments'
+
+'Learning a Model for a Spatio-temporal Graphical User Interface'
+
+'Deep Domain Generalization to Ensemble of Experts: A Differentiable Multi-Task learning Approach'
+
+'Using Deep Reinforcement Learning to Prioritize Inflated Tractors on the Web'
+
+'Caption-based Video Captioning in the Wild by Pre-trained Language Models'
+
+'BERT: BERT: Bi-Language Transformer for Sentence Classification'
+
+'Inference for Dynamic Systems in the Presence of Exotic Events and Non-Stationary Processes'
+
+'Efficient Reinforcement Learning with Nonlocal Interaction Effects'
+
+'Learning from a Diverse Ensemble of Clients to Estimate the Latent Space'

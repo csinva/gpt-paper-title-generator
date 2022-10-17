@@ -1,0 +1,79 @@
+'Learning to See: Disentangled Vision and Image Segmentation with Domain-Guided Domain Attribute Learning'
+
+"A New Benchmark for Evaluating Neural Networks' Fairness, Precision, and Explainability"
+
+'Improving Model Robustness through Deep Learning for Online Vehicle Maintenance'
+
+'Multi-Task Learning via Sparse Sampling: Applying Differentiable Multi-Agent Reinforcement Learning'
+
+'Modeling the Impact of Context-Aware Training on Spatiotemporal GAN'
+
+'Self-Attention for Multi-Task Learning of Graph Embeddings for Structural Prediction'
+
+'A machine, a method and a message all can be equally effective? Testing the message-passing algorithm with binary classification'
+
+'Adversarial Reasoning: When Does Knowledge Transfer Really Transfer?'
+
+'Robustness against Random Attacks against High-speed Single-link Channel Spacing Modulation (HS-SCMM)'
+
+'Robustness analysis in real-world scenarios with a multi-agent framework'
+
+'Dynamic Temporal-Difference Recurrent Neural Networks for Motion-Adaptive Driving: A Benchmark'
+
+'Inferring Multiple Event Types From Fewer Sources: Causal Inference with a Fewer Observations'
+
+'DeepSURD: Towards Automatic Dose Estimation in Densely Trained Training'
+
+'Learning to Rank as Social Science: A Review of the Social and Empirical Literature on Searching and Ranking'
+
+'Diverse Submodularity for the Completion Problem for Random Binary Networks'
+
+'Modeling Time Series with Multiple Time-scale Representations: A Multi-Dimensional Modeling Algorithm'
+
+'Multi-Task Regression Network for High-Performance Speaker Recognition'
+
+'Learning Data-Efficient and Privacy-Preserving Recommendations with Deep Graph-Based Neural Network'
+
+'Automatic Analysis of a Massive Data and its Application in the Internet of Machine Learning'
+
+'Robotic Robotic Networked Robots for Robot-Augmented Teleoperation'
+
+'A Scalable Multihead Attention Network to Predict Image Transformer'
+
+'An Automated Seismic Data-Assimilation System with Improved Offline Quality Control'
+
+'Efficient Exploration of Deep Reinforcement Learning Policies'
+
+'A Distributed Neural Network for Medical Image Segmentation'
+
+'Multi-Domain Learning for Improving the Performance and Scalability of Transfer Learning'
+
+'Scalable Graph Convolutional Network with Local Structure and Generalization'
+
+'Exploring High-dimensional Regression for Low-rank Matrix Factorization'
+
+'Leveraging Human and Machine-Level Domain Knowledge for Cross-Domain Deep Text Embedding'
+
+'The Role of Context in Understanding Language and Information'
+
+'Improving Deep Learning by Training to Learn'
+
+'A Distributed Machine Learning Pipeline for Machine Learning in IoT'
+
+'Probabilistic Data Modeling as an Empirical Bayes Alternative'
+
+'Self-training Transformer for Large-Batch Language Generation and Question Answering'
+
+'Scalable Learning to Representation for Distributed Learning'
+
+'Anomaly Detection for Unreliable Internet Traffic using Machine Learning'
+
+'TensorFlow-Lite: Transforming Code Generation into Learned Code for Code-Efficient Machine Learning'
+
+'Fuzzing Language via Deep Learning for Autonomous Vehicle Development'
+
+'Neural Network Architectures for High-dimensional Classification: A Case Study on Chest X-ray Image'
+
+'Neural Language Understanding with Learned Word-Level Representations'
+
+'Machine Learning and Data-Driven Engineering for Sustainable Urban Mobility: A Perspective Report'
