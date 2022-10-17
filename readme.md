@@ -62,7 +62,7 @@ Here are some samples for ml titles (more in the [samples](samples) folder, e.g.
 - Predicting County Level Corn Yields Based On Time Series Data
 - A Deep Residual Network Approach For Predicting County Level Eegs Using Sparse And Incomplete Data
 
-## Other things to train on
+# Other things to train on
 
 - limericks
 - haikus
