@@ -64,6 +64,15 @@ Note: model used was GPT `text-davinci-002` on Oct 14 2022. It likely was not up
 - then pick one of the model folders (e.g. `gptneo`) and run the notebooks in that folder
     - this will ave results into the `samples` folder
 
+**Inference example**
+```python
+from transformers import AutoModelForCausalLM, pipeline, AutoTokenizer
+model = AutoModelForCausalLM.from_pretrained("csinva/gpt-neo-2.7B-titles")
+tokenizer = AutoTokenizer.from_pretrained("EleutherAI/gpt-neo-2.7B")
+pipe = pipeline('text-generation', model=model, tokenizer=tokenizer)
+pipe('2022\n\n')
+```
+
 ## Finetuned paper title generation (gpt2, from 2019 AKA "Back in the day")
 
 Well, all the cool kids seem to be training their own text bots so here's one which finetunes gpt-2 to generate titles of scientific papers (or anything else). All code and instructions are in [gpt2/scrape_finetune_sample.ipynb](gpt2/scrape_finetune_sample.ipynb). Works with python 3.6 and tf 1.15.0.
