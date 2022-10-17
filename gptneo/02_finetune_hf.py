@@ -13,8 +13,8 @@ from transformers import TrainerCallback
 import data
 
 # hyperparams
-checkpoint = "EleutherAI/gpt-j-6B"
-# checkpoint = "EleutherAI/gpt-neo-2.7B"
+# checkpoint = "EleutherAI/gpt-j-6B"
+checkpoint = "EleutherAI/gpt-neo-2.7B"
 # checkpoint = 'facebook/opt-2.7b'
 # checkpoint = "gpt2-xl"
 tokenizer = AutoTokenizer.from_pretrained(checkpoint)
@@ -68,14 +68,14 @@ class TestGenerationCallback(TrainerCallback):
 # set up trainer
 training_args = TrainingArguments(
     output_dir='title-' + checkpoint.replace('/', '__'),
-    learning_rate=1e-05,  # default is 5e-05
+    learning_rate=5e-06,  # 1e-05 was used for 2.7B model
     # warmup_steps=100,
-    weight_decay=0.01,
+    weight_decay=0.01,  # 0.01 was used for 20B
     per_device_train_batch_size=1,
     gradient_accumulation_steps=20,
     num_train_epochs=4,
     save_strategy='steps',
-    save_steps=50,
+    save_steps=500,
 )
 trainer = Trainer(
     model=model,
