@@ -24,3 +24,4 @@ gpt-2-simple
 gptneo/**json*
 gptneo/title*
 gptneo/*checkpoint*
+**.DS
