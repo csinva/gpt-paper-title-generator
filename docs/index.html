@@ -46,8 +46,9 @@
 
         const md = window.markdownit();
 
-        // fetch('https://raw.githubusercontent.com/csinva/gpt-paper-title-generator/master/readme.md')
-        fetch('../readme.md')
+        
+        // fetch('../readme.md')
+        fetch('https://raw.githubusercontent.com/csinva/gpt-paper-title-generator/master/readme.md')
         .then((response) => response.text())
         .then((text) => {
             document.getElementById('readme').innerHTML = md.render(text);
@@ -72,7 +73,7 @@
         </svg>
     </a>
 
-    <div class="jumbotron">
+    <div class="jumbotron" id="demo">
         <!-- <p> -->
         <!-- </h1> -->
         <div class="container-responsive">
@@ -105,10 +106,14 @@
     </footer>
     <header class="text-center" style="font-size: x-large">
         <hr>
-        <h1 class="text-center"><strong> Predicting future paper titles<br>with GPT-3 and finetuned GPT-Neo</strong></h1>
+        <h1><strong> Predicting future paper titles with GPT</strong></h1>
 
-        <a href="https://csinva.io/">Chandan Singh</a> and <a href="https://james-simon.github.io/">Jamie
-                Simon</a>
+        <a href="https://csinva.io/">Chandan Singh</a><sup style="font-size: small">1</sup> and <a href="https://james-simon.github.io/">Jamie
+                Simon</a><sup style="font-size: small">2</sup>
+        <p style="font-size: large; color: #555;">
+            <sup>1</sup>Microsoft Research, <sup>2</sup>UC Berkeley
+        </p>
+        
         <hr>
     </header>
 

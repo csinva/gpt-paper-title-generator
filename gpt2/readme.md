@@ -61,3 +61,7 @@ Here are some samples for ml titles (more in the [samples](samples) folder, e.g.
 - uses [tweetscraper](https://gist.github.com/yanofsky/5436496)
 - website based on this [example](https://codepen.io/michaeltombor/pen/yoMrMj)
 - adorable robot from [here](http://pngimg.com/uploads/robot/robot_PNG94.png)
+- other things to train on
+  - limericks
+  - haikus
+  - song lyrics
