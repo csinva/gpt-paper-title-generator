@@ -16,9 +16,10 @@ Here is a list of related machine-learning papers:
 > ____
 ```
 
-See the results in [the demo](http://localhost:4000/docs/#demo:~:text=Type%20in%20the%20name%20of%20an%20author%20to%20see%20the%20predicted%20titles%20of%20their%20future%20papers) above or the full results in this [json file](https://github.com/csinva/gpt-paper-title-generator/blob/master/samples/gpt3/authors_save_full.json). 
+See the results in [the demo](http://localhost:4000/docs/#demo:~:text=Type%20in%20the%20name%20of%20an%20author%20to%20see%20the%20predicted%20titles%20of%20their%20future%20papers) above or the full results in this [json file](https://github.com/csinva/gpt-paper-title-generator/blob/master/samples/gpt3/authors_save_full.json).
+Note: paper titles with irregular formatting were likely removed and different authors with exactly the same were merged 🙁
 
-As an example, when prompting with these 5 recent titles:
+Here's a concrete example -- when prompting with these 5 recent titles:
 
 ```
 > Hierarchical Shrinkage: improving the accuracy and interpretability of tree-based methods
