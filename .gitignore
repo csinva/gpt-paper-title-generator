@@ -25,3 +25,4 @@ gptneo/**json*
 gptneo/title*
 gptneo/*checkpoint*
 **.DS_Store
+_site

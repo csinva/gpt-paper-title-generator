@@ -14,12 +14,15 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/markdown-it@8.4.2/dist/markdown-it.min.js"></script>
+
 
     <!--css-->
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="custom.css">
+    
 
     <script>
         function searchTitle() {
@@ -38,6 +41,18 @@
         $('#searchbox').on('autocompleteselect', function (e, ui) {
             searchTitle();
         });
+
+
+
+        const md = window.markdownit();
+
+        // fetch('https://raw.githubusercontent.com/csinva/gpt-paper-title-generator/master/readme.md')
+        fetch('../readme.md')
+        .then((response) => response.text())
+        .then((text) => {
+            document.getElementById('readme').innerHTML = md.render(text);
+        })
+
     </script>
 </head>
 
@@ -58,7 +73,6 @@
     </a>
 
     <div class="jumbotron">
-
         <!-- <p> -->
         <!-- </h1> -->
         <div class="container-responsive">
@@ -75,8 +89,8 @@
                 </div>
             </div>
 
-            <div class="row col-xs-9">
-                <div class="input-group rounded">
+            <div class="row justify-content-center">
+                <div class="input-group rounded col-12">
                     <input type="search" class="form-control rounded" placeholder="e.g. yoshua bengio"
                         aria-label="Search" id="searchbox" aria-describedby="search-addon" style="font-size: large" />
                     <button type="submit" onclick="searchTitle()" class="btn btn-primary">Search</button>
@@ -98,11 +112,8 @@
         <hr>
     </header>
 
-    <h2>Generating author-specific paper titles with GPT-3</h2>
 
-    <h2>Generating new titles with finetuned GPT-Neo</h2>
-
-    These samples are considerably improved over the samples we made with GPT2 <a href="https://csinva.io/gpt-paper-title-generator/web/gpt2">back in 2019</a>.
+    <div id="readme"></div>    
 
 </body>
 
