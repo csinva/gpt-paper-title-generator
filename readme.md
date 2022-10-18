@@ -6,7 +6,6 @@
 
 In one experiment, we ask gpt3 to generate title for different authors following the following template:
 
-
 [samples/gpt3/authors_save_full.json](samples/gpt3/authors_save_full.json) contains a list of 5 generated papers for **all authors with atleast 3 arXiv AI papers** (cs.ML, cs.LG, stat.ML). For example, here are the entries for a few authors:
 
 ```
@@ -47,7 +46,7 @@ Note: model used was GPT `text-davinci-002` on Oct 14 2022. It likely was not up
 ## Finetuned paper title generation (gptneo 2.7B)
 
 **Model**
-- finetunes starting from the[gpt-neo-2.7B checkpoint](https://huggingface.co/EleutherAI/gpt-neo-2.7B)
+- finetunes starting from the [gpt-neo-2.7B checkpoint](https://huggingface.co/EleutherAI/gpt-neo-2.7B)
     - for training details see [the training script](https://github.com/csinva/gpt-paper-title-generator/blob/0157f26be9b0763b4ea6480e5b149fdb8dff4626/gptneo/02_finetune_hf.py)
 - inference
     - should prepend with a year and two newlines before querying for a title, e.g. `2022\n\n`
@@ -135,7 +134,7 @@ Here are some samples for ml titles (more in the [samples](samples) folder, e.g.
 - uses [arxiv-scraper](https://github.com/Mahdisadjadi/arxivscraper)
 - uses [tweetscraper](https://gist.github.com/yanofsky/5436496)
 - website based on this [example](https://codepen.io/michaeltombor/pen/yoMrMj)
-- adorable robot from [here](https://csinva.github.io/gpt2-paper-title-generator/index.html)
+- adorable robot from [here](http://pngimg.com/uploads/robot/robot_PNG94.png)
 - other things to train on
     - limericks
     - haikus
