@@ -94,12 +94,20 @@ h1 {
 
 img.MyImage {
     max-width: 100%;
+    height: auto;
 }
 
 div {
     color: black;
 }
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 4in;
+}
 
 @media only screen and (max-width: 768px) {
 
