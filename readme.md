@@ -2,7 +2,7 @@ We explore generating new paper titles given past titles on arXiv.
 We first explore generating titles conditioned on a specific author (using GPT-3 without finetuning).
 We then generate titles conditioned only on their publication year (using GPT-Neo with finetuning)
 
-## Author-specific paper titles (prompting gpt3 text-davinci-002)
+## Author-specific paper titles (prompting gpt3)
 To generate author-specific titles, we take the five most recent titles from each author with atleast 3 arXiv AI papers (cs.ML, cs.LG, stat.ML).
 We then feed then format the papers using the following template and query for the next title using GPT-3 with the OpenAI API:
 
@@ -43,7 +43,7 @@ We get these 5 (independent) random generations for the blank:
 The results are often interesting but fall into failure modes where they generate irrelevant titles for an author, often leaning towards popular topics such as deep learning, multi-task learning, and reinforcement learning.
 Note: the model used was GPT `text-davinci-002` on Oct 14 2022. It likely was not up to date with the most current advances and could be improved with finetuning on more recent titles. We explore that below with a smaller model:
 
-## Finetuned paper title generation (gptneo 2.7B)
+## Finetuned paper title generation (gptneo)
 
 To improve the model, we now turn to finetuning a model specifically for paper-title generation. We start from the [gpt-neo-2.7B checkpoint](https://huggingface.co/EleutherAI/gpt-neo-2.7B) (see the [the training script](https://github.com/csinva/gpt-paper-title-generator/blob/91d8aa78d83f16778a120ec4a3dc41be28f5e8f2/gptneo/02_finetune_hf.py) for hyperparameters). We finetune on all [paper titles on arXiv](https://www.kaggle.com/datasets/Cornell-University/arxiv) in the categories cs.AI, cs.LG, stat.ML. However, we exclude some titles for testing: we exclude all papers after Apr 1, 2022 and an additional random 5\% of titles. Note that papers are very skewed towards recent years:
 
@@ -93,6 +93,7 @@ During finetuning each paper title was given in the format `<year>\n\n <title>\n
 ## Some possible followups
 
 - Use information about abstracts instead of just titles
+- Get model to explain why it generated a particular title (probably grounded in abstract)
 - Improve author-specific title generation with finetuning (some authors have *a lot* of papers)
 
 ![](https://csinva.io/gpt-paper-title-generator/figs/author_counts.svg)
