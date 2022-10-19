@@ -1,6 +1,5 @@
 We explore generating new paper titles given past titles on arXiv.
-We first explore generating titles conditioned on a specific author (using GPT-3 without finetuning).
-We then generate titles conditioned only on their publication year (using GPT-Neo with finetuning)
+We first generate titles conditioned on a specific author (using GPT-3 without finetuning) and then generate titles conditioned only on their publication year (using GPT-Neo with finetuning)
 
 ## Author-specific paper titles (prompting gpt3)
 To generate author-specific titles, we take the five most recent titles from each author with atleast 3 arXiv AI papers (cs.ML, cs.LG, stat.ML).
@@ -17,7 +16,7 @@ Here is a list of related machine-learning papers:
 ```
 
 See the results in [the demo](http://localhost:4000/docs/#demo:~:text=Type%20in%20the%20name%20of%20an%20author%20to%20see%20the%20predicted%20titles%20of%20their%20future%20papers) above or the full results in this [json file](https://github.com/csinva/gpt-paper-title-generator/blob/master/samples/gpt3/authors_save_full.json).
-Note: paper titles with irregular formatting were likely removed and different authors with exactly the same were merged 🙁
+Note: paper titles with irregular formatting were likely removed and different authors with exactly the same were merged.
 
 Here's a concrete example -- when prompting with these 5 recent titles:
 
