@@ -2,7 +2,7 @@ Forecasting the progress of research is an elusive and important problem.
 Here, we take a toy step towards this problem by exploring generating new paper titles given past titles on arXiv:
 1. We generate titles conditioned on a specific author (using GPT-3 without finetuning)
 2. We generate titles conditioned on their publication year (using GPT-Neo with finetuning)
-3. We evaluate the generated titles to see how well they match new, recent paper titles 
+3. We evaluate the generated titles to see how well they match new, recent paper titles
 
 ## 1  &nbsp; Author-specific paper titles (prompting gpt3)
 To generate author-specific titles, we take the five most recent titles from each author with atleast 3 arXiv AI papers (cs.ML, cs.LG, stat.ML).
@@ -87,7 +87,7 @@ tokenizer = AutoTokenizer.from_pretrained("EleutherAI/gpt-neo-2.7B")
 pipe = pipeline('text-generation', model=model, tokenizer=tokenizer)
 pipe('2022\n\n')
 ------------------
-> [{'generated_text': '2022\n\n Automating the Visualization of Convolutional Neural Networks\n'}]
+> Automating the Visualization of Convolutional Neural Networks
 ```
 
 During finetuning each paper title was given in the format `<year>\n\n <title>\n` (e.g. `2020\n\n Interpretations are useful: penalizing explanations to align neural networks with prior knowledge\n`). The same format should be used for inference. These samples are considerably improved over the samples we made with GPT2 [back in 2019](https://csinva.io/gpt-paper-title-generator/gpt2) (the good old days).
