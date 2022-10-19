@@ -48,8 +48,8 @@
         const md = window.markdownit();
 
         
-        fetch('../readme.md')
-        // fetch('https://raw.githubusercontent.com/csinva/gpt-paper-title-generator/master/readme.md')
+        // fetch('../readme.md')
+        fetch('https://raw.githubusercontent.com/csinva/gpt-paper-title-generator/master/readme.md')
         .then((response) => response.text())
         .then((text) => {
             document.getElementById('readme').innerHTML = md.render(text);
