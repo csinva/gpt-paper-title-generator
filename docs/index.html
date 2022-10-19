@@ -34,6 +34,7 @@
         $(function () {
             $("#searchbox").autocomplete({
                 source: authors,
+                minLength: 4,
                 close: function (event, ui) { searchTitle(); }
             });
         });
