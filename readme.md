@@ -101,10 +101,21 @@ During finetuning each paper title was given in the format `<year>\n\n <title>\n
 
 ## 3  &nbsp; Generated paper evaluation
 
-We now evaluate whether the generated titles for 2022 match the real paper titles from the test set (April 1 - Oct 13 2022). Note that the model has never seen any papers from this time period (and it's pre-training corpus also did not include any text from 2022).
+We now evaluate whether the generated titles for 2022 match the real paper titles from the test set (April 1 - Oct 13 2022). Note that the model has never seen any papers from this time period (and it's pre-training corpus also did not include any text from 2022). We generate 5,000 titles and for each, search for the closest match in the test set (which contains ~15,000 titles). The resulting BLEU scores are shown in this figure:
 
+![](https://csinva.io/gpt-paper-title-generator/figs/bleu.svg)
 
+Here's a table of the first 5 matches, see if you can guess which are the real titles and which are generated (we'll give the answers below):
 
+|      | A                                                            | B                                                            |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 1    | Understanding the effect of data augmentation in generative adversarial networks | Understanding the effect of data augmentation in self-supervised anomaly detection |
+| 2    | Adversarial attacks on graph neural networks                 | Sparse vicious attacks on graph neural networks              |
+| 3    | Differentiable reinforcement learning for continuous control | Normality-guided distributional reinforcement learning for continuous control |
+| 4    | Multilevel representation learning for time series forecasting | Out-of-distribution representation learning for time series classification |
+| 5    | Unsupervised feature learning for medical image segmentation | Distributed contrastive learning for medical image segmentation |
+
+Answer: `sǝlʇᴉʇ lɐǝɹ ǝɥʇ suᴉɐʇuoɔ q uɯnloƆ`
 
 **Some possible followups**
 There are a bunch of directions to explore to see how well language models can really forecast scientific progress. Here are some straightforward followups:
