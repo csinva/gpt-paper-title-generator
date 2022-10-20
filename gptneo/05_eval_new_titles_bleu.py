@@ -8,7 +8,6 @@ import pickle as pkl
 import json
 from eval import title_bleu
 from tqdm import tqdm
-import matplotlib.pyplot as plt
 years = ['2022', '2023',
          '2020', '2021', '2010', '2024', '2030', '2050']
 for year in years:
@@ -22,24 +21,10 @@ for year in years:
     titles_new_df = pd.read_pickle('../data/df_test_recent.pkl')
     titles_new = titles_new_df.title
 
-    # plt.hist(titles_len)
-    # plt.xlabel('Title num words')
-    # plt.ylabel('Count')
-    # plt.show()
-
-    # Look for exact matches
-    # For this to be kosher, need to make sure the model never saw
-    # any titles within the dates of the test set.
     titles_overlap = []
     tg = titles_gen.str.lower().str.strip().values
     tn = titles_new.str.lower().str.strip().values
     print('# generated titles', tg.size, '# GT titles', tn.size)
-
-    # exact matches
-    for title_gen in tg:
-        if title_gen in tn:
-            print(title_gen)
-    print('# exact matches', len(titles_overlap))
 
     # closest matches ##################################
     bleus = np.zeros((tg.size, tn.size))
@@ -56,9 +41,9 @@ for year in years:
         'tg': tg[args],
         'tn': tn[matches[args]],
         'bleu': bleu_matches[args],
-        'bleus_arr': bleus,
+        # 'bleus_arr': bleus,
     }
-    pkl.dump(closest_matches, open(f'closest_matches_{year}.pkl', 'wb'))
+    pkl.dump(closest_matches, open(f'../samples/gptneo/{year}/closest_matches_{year}.pkl', 'wb'))
 
     N = 50
     for i in range(N):
