@@ -1,35 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- <body onload="newQuote()"> -->
 
 <head>
     <!--js-->
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
     <script src="titles.js"></script>
     <script src="authors.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/markdown-it@8.4.2/dist/markdown-it.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/markdown-it.min.js"></script>
 
 
     <!--css-->
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="custom.css">
-    <!-- <link rel="stylesheet" href="latex.css"> -->
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
 
 
 
     <script>
         function searchTitle() {
-            // var randomNumber = Math.floor(Math.random() * (quotesquant.length));
-            // document.getElementById("quoteDisplay").innerHTML = quotesquant[randomNumber];
             document.getElementById("quoteDisplay").innerHTML = titles[document.getElementById('searchbox').value];
         }
 
@@ -77,13 +67,11 @@
     </a>
 
     <div class="jumbotron" id="demo">
-        <!-- <p> -->
-        <!-- </h1> -->
         <div class="container-responsive">
             <div class="row">
                 <div class="col-3">
                     <a><img class="center-block img-responsive MyImage"
-                            src="http://pngimg.com/uploads/robot/robot_PNG94.png">
+                            src="css/robot.png">
                     </a><br>
                 </div>
                 <div class="col-9">
